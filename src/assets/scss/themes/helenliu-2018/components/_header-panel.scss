@@ -10,7 +10,42 @@
 // ====================================================================
 
 .header--panel {
+	padding: $global-padding;
 	background: {
-		image: url('../img/helenliu-2018/bg-img-stripe.png');
+		image: url('../img/bg-img-stripe.png');
+	}
+}
+
+.header--panel--header {
+
+}
+
+.header--panel--title {
+	font: {
+		family: $sans-serif-typeface-2;
+		size: 5vw;
+		weight: $bold;
+	}
+	line-height: 5vw;
+
+	// Sub-title
+	span {
+		display: block;
+		font: {
+			size: 2.5vw;
+			weight: $regular;
+		}
+		line-height: 3vw;
+		color: $medium-grey;
+	}
+}
+
+.header--panel--content {
+	* {
+		font: {
+			family: $serif-typeface-1;
+			size: 1.3vw;
+			weight: $regular;
+		}
 	}
 }
