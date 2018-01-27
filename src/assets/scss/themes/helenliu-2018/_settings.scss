@@ -81,7 +81,7 @@ $medium-gray: $medium-grey;
 $dark-gray: $dark-grey;
 $black: $black;
 $white: $white;
-$body-background: $light-grey;
+$body-background: smart-scale($light-grey, -90%);
 $body-font-color: $dark-grey;
 $body-font-family: $sans-serif-typeface-1;
 $body-antialiased: true;
