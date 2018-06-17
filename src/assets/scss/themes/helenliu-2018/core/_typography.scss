@@ -158,3 +158,67 @@ $fixed-typeface-1: Consolas, 'Liberation Mono', Courier, monospace;
 // ------------------------------------------------------------------------
 // 	STYLES
 // ------------------------------------------------------------------------
+
+p, li {
+  font:{
+    size: rem-calc(18);
+  }
+
+  @include breakpoint(medium down) { // 768
+    font: {
+      size: rem-calc(15);
+    }
+  }
+
+  @include breakpoint(small down) { // 320
+    font: {
+      size: rem-calc(13);
+    }
+  }
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  // list-style: {
+  //   image: url('../img/bullet-star.svg');
+  //   // position: inside;
+  // }
+  
+
+  li {
+    margin-bottom: 0.5em;
+    // margin-left: 1em;
+    // padding-left: $space-m;
+    text-align: left;
+
+    &:before {
+      content: "";
+      background: {
+        image: url('../img/bullet-star.svg');
+        repeat: no-repeat;
+        position: left center;
+      }
+      padding-left: $space-l;
+    }
+    
+  }
+}
+
+.inline {
+  li {
+    display: inline-block;
+    margin-right: $space-s;
+
+    @include breakpoint(small down) { // 320
+      display: block;
+    }
+
+    // &:first-child {
+    //   &:before {
+    //     background: none;
+    //     padding-left: 0;
+    //   }
+    // }
+  }
+}

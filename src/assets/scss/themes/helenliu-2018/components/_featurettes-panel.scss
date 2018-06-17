@@ -1,0 +1,65 @@
+// ====================================================================
+// 
+//	FEATURETTES PANEL
+//	Feature panel for home page.
+//
+//	File name:	_featurettes-panel.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+.featurettes-panel {
+	position: relative;
+	// border-bottom: $border-panel;
+}
+
+.featurettes-panel--item {
+	padding: rem-calc($space-m);
+	// padding-left: 0;
+	// text-align: center;
+
+	@include breakpoint(small down) { // 768
+		padding: 0;
+	}
+}
+
+.featurettes-panel--image {
+	text-align: center;
+	img {
+		max-width: 60%;
+	}
+}
+
+.featurettes-panel--title {
+	font: {
+		family: $sans-serif-typeface-2;
+		size: rem-calc(34);
+		weight: $regular;
+	}
+	line-height: 1.2em;
+	text-align: center;
+
+	@include breakpoint(medium down) { // 768
+		font: {
+			size: rem-calc(24);
+		}
+	}
+}
+
+.featurettes-panel--content {
+
+	* {
+		font: {
+			size: rem-calc(16);
+			weight: $regular;
+		}
+
+		@include breakpoint(medium down) { // 768
+			font: {
+				size: rem-calc(13);
+			}
+		}
+	}
+	
+}

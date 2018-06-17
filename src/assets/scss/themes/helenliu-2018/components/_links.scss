@@ -1,0 +1,30 @@
+// ====================================================================
+// 
+//	LINKS
+//	Feature panel for home page.
+//
+//	File name:	_links.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+a {
+	border-bottom: 1px solid $medium-grey;
+
+	&:visited {
+		color: $purple;
+	}
+
+	&:hover {
+		color: $blue;
+	}
+
+	&:focus,
+	&:active {
+		background: {
+			color: $pink
+		}
+		color: $white;
+	}
+}

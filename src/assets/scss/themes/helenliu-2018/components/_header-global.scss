@@ -9,6 +9,68 @@
 // 
 // ====================================================================
 
-.header--global {
+.header-global {
+	background: {
+		color: $white;
+	}
+	padding: {
+		// left: rem-calc(20);
+		// top: $space-s;
+		right: rem-calc(20);
+	}
+	margin-top: 0 !important;
+	transition: $default-animation;
 
+	&.is-stuck {
+		box-shadow: 0 2px 3px rgba($dark-grey, 0.15);
+		background: {
+			color: $teal;
+		}
+		color: $white;
+	}
+}
+
+.header-global--image {
+	display: inline-block;
+	// width: rem-calc(40);
+
+	@include breakpoint(small down) {
+		margin-left: rem-calc(-20);
+	}
+
+	img {
+		width: rem-calc(70);
+
+		@include breakpoint(small down) {
+			width: rem-calc(50);
+		}
+	}
+}
+
+.header-global--title {
+	display: inline-block;
+	font: {
+		family: $sans-serif-typeface-2;
+		size: rem-calc(28);
+		weight: $bold;
+	}
+
+	@include breakpoint(medium down) {
+		font: {
+			size: rem-calc(24);
+		}
+	}
+
+	@include breakpoint(small down) {
+		font: {
+			size: rem-calc(20);
+		}
+	}
+
+	// Sub-title
+	span {
+		font: {
+			weight: $regular;
+		}
+	}
 }

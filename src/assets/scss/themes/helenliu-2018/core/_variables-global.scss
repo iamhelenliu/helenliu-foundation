@@ -11,16 +11,40 @@
 //	BORDERS
 // --------------------------------------------------------------------
 
-$border-default: 1px solid smart-scale($light-grey, 10%);
+$border-default: 1px solid smart-scale($light-grey, -80%);
+$border-panel: 3px solid smart-scale($light-grey, -90%);
 
 
 // --------------------------------------------------------------------
 //	SPACINGS
 // --------------------------------------------------------------------
 
-$space-xs: 	rem-calc(4);
-$space-s:		rem-calc(8);
-$space-m:		rem-calc(16);
-$space-l:		rem-calc(24);
+$space-xs: 	rem-calc(5);
+$space-s:		rem-calc(10);
+$space-m:		rem-calc(20);
+$space-l:		rem-calc(30);
 $space-xl:	rem-calc(48);
 $space-xxl:	rem-calc(72);
+
+
+// --------------------------------------------------------------------
+//	RADII
+// --------------------------------------------------------------------
+
+$border-radius-default: rem-calc(6px);
+$border-radius-large: rem-calc(15px);
+$button-radius: 100em;
+
+
+// --------------------------------------------------------------------
+//	DROP SHADOWS
+// --------------------------------------------------------------------
+
+$drop-shadow-default: 0 3px 0 rgba($dark-grey, 0.1);
+
+
+// --------------------------------------------------------------------
+//	ANIMATION
+// --------------------------------------------------------------------
+
+$default-animation: all 0.3s ease-in-out;

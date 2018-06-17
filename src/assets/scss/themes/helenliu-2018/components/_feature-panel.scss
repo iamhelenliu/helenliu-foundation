@@ -1,0 +1,114 @@
+// ====================================================================
+// 
+//	FEATURE PANEL
+//	Feature panel for home page.
+//
+//	File name:	_feature-panel.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+
+.feature {
+	// background: {
+	// 	image: url('../img/bg-img-stripe.svg');
+	// }
+	// border-bottom: $border-panel;
+}
+
+.feature-panel {
+	position: relative;
+	overflow: hidden;
+}
+
+.feature-panel--background {
+	background: {
+		image: url('../img/bg-img-blue-wave-large.svg');
+		repeat: no-repeat;
+		position: center bottom;
+		size: cover;
+	}
+}
+
+.feature-panel--background-image {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: inherit;
+
+	&.image-1 { // bugs
+		top: 5%;
+		left: 50%;
+		transform: translateX(-50%);
+
+		img {
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+
+			@include breakpoint(medium down) {
+
+			}
+
+			@include breakpoint(small down) {
+				max-width: 170%;
+			}
+		}
+	}
+
+	&.image-2 { // sharp bubbles
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-50%);
+
+		@include breakpoint(large down) {
+			top: 20%;
+		}
+
+		img {
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+
+			@include breakpoint(small down) {
+				max-width: 170%;
+			}
+		}
+	}
+
+	&.image-3 { // blurred bubbles
+		position: absolute;
+		top: -25%;
+		left: 50%;
+		transform: translateX(-50%);
+
+		img {
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+			max-width: 150%;
+
+			@include breakpoint(small down) {
+				max-width: 300%;
+			}
+		}
+	}
+}
+
+.feature-panel--image {
+	img {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);	
+		max-width: 30%;
+
+		@include breakpoint(large down) { // 768
+			max-width: 40%;
+		}
+		@include breakpoint(small down) { // 320
+			max-width: 80%;
+		}
+	}
+}

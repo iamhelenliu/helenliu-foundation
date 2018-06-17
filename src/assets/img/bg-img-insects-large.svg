@@ -1,0 +1,427 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1434" height="306" viewBox="0 0 1434 306">
+  <defs>
+    <ellipse id="bg-img-insects-large-a" cx="21.6" cy="22" rx="21.6" ry="22"/>
+    <path id="bg-img-insects-large-c" d="M14.2795898,37.4615885 C25.2148279,37.4615885 39.6,31.3044091 39.6,20.1666667 C39.6,9.02892421 30.735238,0 19.8,0 C8.86476195,0 2.57519531,16.2405128 2.57519531,27.3782552 C2.57519531,32.1128743 5.59335938,37.4615885 14.2795898,37.4615885 Z"/>
+    <path id="bg-img-insects-large-d" d="M12.7043441,36.4246942 C21.2103945,36.4246942 32.4,31.6352896 32.4,22.9717198 C32.4,14.3081499 25.5044837,7.28493883 16.9984333,7.28493883 C8.49238284,7.28493883 3.6,19.9177338 3.6,28.5813037 C3.6,32.2641599 5.94769976,36.4246942 12.7043441,36.4246942 Z"/>
+    <path id="bg-img-insects-large-e" d="M10.3980176,36.4246942 C16.7493022,36.4246942 25.1043395,32.848549 25.1043395,26.379648 C25.1043395,19.910747 19.9556061,14.6666667 13.6043215,14.6666667 C7.25303687,14.6666667 3.6,24.0993025 3.6,30.5682035 C3.6,33.3181129 5.35297683,36.4246942 10.3980176,36.4246942 Z"/>
+    <ellipse id="bg-img-insects-large-f" cx="31.2" cy="31.667" rx="31.2" ry="31.667"/>
+    <path id="bg-img-insects-large-h" d="M20.6260742,53.9219835 C36.4214181,53.9219835 57.2,45.0593768 57.2,29.0277778 C57.2,12.9961788 44.3953438,0 28.6,0 C12.8046562,0 3.71972656,23.3764956 3.71972656,39.4080946 C3.71972656,46.2230767 8.07929688,53.9219835 20.6260742,53.9219835 Z"/>
+    <path id="bg-img-insects-large-i" d="M18.3507193,52.429484 C30.6372366,52.429484 46.8,45.5356442 46.8,33.0653542 C46.8,20.5950642 36.8398098,10.4858968 24.5532925,10.4858968 C12.2667752,10.4858968 5.2,28.6694654 5.2,41.1397553 C5.2,46.4408362 8.59112187,52.429484 18.3507193,52.429484 Z"/>
+    <path id="bg-img-insects-large-j" d="M15.0193588,52.429484 C24.1934365,52.429484 36.2618237,47.2820023 36.2618237,37.9707055 C36.2618237,28.6594086 28.8247643,21.1111111 19.6506866,21.1111111 C10.4766088,21.1111111 5.2,34.68839 5.2,43.9996868 C5.2,47.9578897 7.73207764,52.429484 15.0193588,52.429484 Z"/>
+    <path id="bg-img-insects-large-k" d="M27.7429628,46.5999573 C30.9401731,50.1798682 32.0739929,51.1786755 36.2258809,54.5213273 C42.7594255,59.7814318 44.7021356,61.3918213 52.2361109,64.0978167 C54.1709486,64.7927569 58.0729741,66.0559253 59.5613477,64.4429631 C63.3671157,60.3186223 56.6971082,57.8126026 54.7622705,57.1176624 C48.0736668,54.7153011 46.8345196,53.5221762 40.907431,48.7503246 C37.0927567,45.6791609 36.2475916,44.9598692 33.3074834,41.667835 C32.2828539,40.520559 31.3917723,39.4589969 30.6404068,38.5119585 C30.2008829,37.9579725 29.9126108,37.5753947 29.7815654,37.3930325 C28.5843394,35.7269779 26.2580619,35.3432449 24.5856792,36.5359407 C22.9132965,37.7286365 22.5281059,40.0461116 23.7253319,41.7121662 C24.4567843,42.7300523 25.8096138,44.4351896 27.7429628,46.5999573 Z"/>
+    <filter id="bg-img-insects-large-l" width="105.3%" height="106.8%" x="-2.7%" y="-3.4%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-m" cx="23.029" cy="33.734" rx="8.374" ry="8.434"/>
+    <filter id="bg-img-insects-large-n" width="111.9%" height="111.9%" x="-6%" y="-5.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-o" cx="20.936" cy="35.843" rx="2.094" ry="2.108"/>
+    <filter id="bg-img-insects-large-p" width="111.9%" height="111.9%" x="-6%" y="-5.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.555417456   0 0 0 0 0.926381117   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-q" cx="16.225" cy="37.424" rx="1.57" ry="1.581"/>
+    <filter id="bg-img-insects-large-r" width="115.9%" height="115.8%" x="-8%" y="-7.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.555417456   0 0 0 0 0.926381117   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-s" cx="16.56" cy="17" rx="16.56" ry="17"/>
+    <path id="bg-img-insects-large-u" d="M10.9476855,28.9475911 C19.331368,28.9475911 30.36,24.1897707 30.36,15.5833333 C30.36,6.97689598 23.5636825,0 15.18,0 C6.7963175,0 1.97431641,12.5494871 1.97431641,21.1559245 C1.97431641,24.8144938 4.28824219,28.9475911 10.9476855,28.9475911 Z"/>
+    <path id="bg-img-insects-large-v" d="M9.73999715,28.1463546 C16.2613025,28.1463546 24.84,24.4454511 24.84,17.7508744 C24.84,11.0562976 19.5534375,5.62927092 13.0321322,5.62927092 C6.51082685,5.62927092 2.76,15.3909761 2.76,22.0855529 C2.76,24.9313963 4.55990315,28.1463546 9.73999715,28.1463546 Z"/>
+    <path id="bg-img-insects-large-w" d="M7.97181349,28.1463546 C12.8411317,28.1463546 19.2466603,25.3829697 19.2466603,20.3842735 C19.2466603,15.3855773 15.299298,11.3333333 10.4299798,11.3333333 C5.5606616,11.3333333 2.76,18.6221883 2.76,23.6208845 C2.76,25.7458145 4.1039489,28.1463546 7.97181349,28.1463546 Z"/>
+    <path id="bg-img-insects-large-x" d="M21.0463856,35.4716093 C23.4718555,38.1966161 24.3319946,38.9569023 27.4817027,41.5013088 C32.4381848,45.505269 33.9119649,46.7310878 39.6273945,48.7908754 C41.0952024,49.3198597 44.0553596,50.281376 45.1844707,49.0535988 C48.071605,45.9141752 43.0115993,44.0066079 41.5437914,43.4776236 C36.4696783,41.6489605 35.5296355,40.740761 31.0332235,37.1084561 C28.1393327,34.7707046 27.4981729,34.223184 25.267746,31.7173072 C24.4904409,30.8440076 23.814448,30.0359529 23.2444465,29.3150729 C22.9110146,28.893382 22.6923254,28.6021661 22.5929117,28.4633531 C21.6846713,27.1951623 19.919909,26.903067 18.6512049,27.8109399 C17.3825008,28.7188129 17.0902872,30.4828611 17.9985276,31.7510519 C18.5534226,32.5258607 19.579707,33.8238011 21.0463856,35.4716093 Z"/>
+    <filter id="bg-img-insects-large-y" width="107%" height="108.9%" x="-3.5%" y="-4.5%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-z" cx="17.471" cy="25.678" rx="6.353" ry="6.42"/>
+    <filter id="bg-img-insects-large-A" width="115.7%" height="115.6%" x="-7.9%" y="-7.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-B" cx="15.882" cy="27.283" rx="1.588" ry="1.605"/>
+    <filter id="bg-img-insects-large-C" width="115.7%" height="115.6%" x="-7.9%" y="-7.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.555417456   0 0 0 0 0.926381117   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-D" cx="12.309" cy="28.487" rx="1.191" ry="1.204"/>
+    <filter id="bg-img-insects-large-E" width="121%" height="120.8%" x="-10.5%" y="-10.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.555417456   0 0 0 0 0.926381117   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <path id="bg-img-insects-large-F" d="M17.21977,29.2119135 C19.2042454,31.4560368 19.9079956,32.0821548 22.4850295,34.1775485 C26.5403331,37.4749274 27.7461531,38.4844253 32.4224137,40.1807209 C33.6233474,40.616355 36.0452942,41.408192 36.9691124,40.3970813 C39.3313132,37.8116737 35.1913085,36.2407359 33.9903748,35.8051018 C29.8388277,34.2991439 29.0697018,33.551215 25.3908192,30.559905 C23.0230904,28.6346979 22.4985051,28.1837986 20.6736104,26.1201354 C20.0376334,25.4009475 19.4845483,24.7354906 19.0181835,24.1418247 C18.7453756,23.7945499 18.5664481,23.554725 18.4851096,23.4404084 C17.7420038,22.396016 16.2981074,22.1554669 15.2600767,22.903127 C14.2220461,23.6507871 13.9829623,25.1035327 14.7260681,26.1479251 C15.180073,26.7860029 16.0197603,27.854895 17.21977,29.2119135 Z"/>
+    <filter id="bg-img-insects-large-G" width="108.6%" height="110.9%" x="-4.3%" y="-5.4%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-H" cx="14.294" cy="21.147" rx="5.198" ry="5.287"/>
+    <filter id="bg-img-insects-large-I" width="119.2%" height="118.9%" x="-9.6%" y="-9.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-J" cx="12.995" cy="22.469" rx="1.299" ry="1.322"/>
+    <filter id="bg-img-insects-large-K" width="119.2%" height="118.9%" x="-9.6%" y="-9.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.555417456   0 0 0 0 0.926381117   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-L" cx="10.071" cy="23.46" rx="1" ry="1"/>
+    <filter id="bg-img-insects-large-M" width="125.7%" height="125.2%" x="-12.8%" y="-12.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.555417456   0 0 0 0 0.926381117   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-N" cx="23.927" cy="37.662" rx="2.393" ry="2.432"/>
+    <filter id="bg-img-insects-large-O" width="110.4%" height="110.3%" x="-5.2%" y="-5.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-P" cx="18.543" cy="39.486" rx="1.795" ry="1.824"/>
+    <filter id="bg-img-insects-large-Q" width="113.9%" height="113.7%" x="-7%" y="-6.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-R" d="M7.21800396,43.3881729 C14.0170143,39.6171202 31.9796635,32.7167877 39.8179809,24.4607501 C54.2843623,9.22342543 44.037951,1.76849558 35.5510409,0.339689582 C28.2003633,-0.897827032 19.6276478,0.563385779 8.92184955,16.4306874 C-1.78394867,32.297989 0.133344009,38.8541328 0.133344009,38.8541328 C0.133344009,38.8541328 1.46877574,46.5769667 7.21800396,43.3881729 Z"/>
+    <ellipse id="bg-img-insects-large-T" cx="38.739" cy="60.996" rx="3.874" ry="3.939"/>
+    <filter id="bg-img-insects-large-U" width="106.5%" height="106.3%" x="-3.2%" y="-3.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-V" cx="30.023" cy="63.95" rx="2.905" ry="2.954"/>
+    <filter id="bg-img-insects-large-W" width="108.6%" height="108.5%" x="-4.3%" y="-4.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-X" d="M11.6862921,70.2699757 C22.6942137,64.16251 51.7765981,52.9869713 64.4672072,39.6157801 C87.8889675,14.937939 71.2995397,2.86419393 57.5588281,0.550149431 C45.657731,-1.45408943 31.7780964,0.912440012 14.4448993,26.6105698 C-2.88829785,52.3086996 0.2158903,62.9268021 0.2158903,62.9268021 C0.2158903,62.9268021 2.37801787,75.4344352 11.6862921,70.2699757 Z"/>
+    <path id="bg-img-insects-large-Z" d="M33.7096715,60.8763578 C40.721534,66.6174557 48.0051272,62.8993932 48.3177655,56.7896403 C48.6304039,50.6798873 44.5102362,48.8277288 40.2164336,46.8299894 C35.9226311,44.8322499 31.7899498,43.4768713 30.9835771,42.443234 C30.5118759,41.8385905 30.2024995,41.4210291 30.0618604,41.2219914 C28.776986,39.4035898 26.2804028,38.9847674 24.4855857,40.2865255 C22.6907686,41.5882836 22.2773783,44.1176728 23.5622527,45.9360744 C24.3472545,47.0470378 29.2538257,57.228048 33.7096715,60.8763578 Z"/>
+    <filter id="bg-img-insects-large-aa" width="107.8%" height="108.3%" x="-3.9%" y="-4.1%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-ab" cx="22.815" cy="37.229" rx="8.987" ry="9.205"/>
+    <filter id="bg-img-insects-large-ac" width="111.1%" height="110.9%" x="-5.6%" y="-5.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-ad" cx="20.569" cy="39.53" rx="2.247" ry="2.301"/>
+    <filter id="bg-img-insects-large-ae" width="111.1%" height="110.9%" x="-5.6%" y="-5.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-af" cx="15.513" cy="41.256" rx="1.685" ry="1.726"/>
+    <filter id="bg-img-insects-large-ag" width="114.8%" height="114.5%" x="-7.4%" y="-7.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-ah" d="M64.3419996,51.7521966 C62.0346273,40.8041583 52.198141,44.1289772 52.7272202,40.0918352 C56.3863267,12.1710031 48.6797478,0.770249978 46.1281144,1.66610492 C43.047367,2.7477269 36.9117863,27.0628213 39.7169523,45.0529634 C42.8661118,53.8099526 51.7699865,53.039371 57.9813312,53.0882821 C62.3393642,53.1225993 65.29339,56.2663614 64.3419996,51.7521966 Z"/>
+    <filter id="bg-img-insects-large-ai" width="119.6%" height="109.5%" x="-9.8%" y="-4.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="5" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-aj" d="M25.2822536,45.6572684 C30.5411505,49.9630918 36.0038454,47.1745449 36.2383241,42.5922302 C36.4728029,38.0099155 33.3826771,36.6207966 30.1623252,35.122492 C26.9419733,33.6241875 23.8424624,32.6076535 23.2376828,31.8324255 C22.8839069,31.3789429 22.6518747,31.0657718 22.5463953,30.9164935 C21.5827395,29.5526923 19.7103021,29.2385756 18.3641893,30.2148941 C17.0180764,31.1912127 16.7080338,33.0882546 17.6716896,34.4520558 C18.2604409,35.2852783 21.9403693,42.921036 25.2822536,45.6572684 Z"/>
+    <filter id="bg-img-insects-large-ak" width="110.4%" height="111%" x="-5.2%" y="-5.5%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-al" cx="17.112" cy="27.921" rx="6.741" ry="6.904"/>
+    <filter id="bg-img-insects-large-am" width="114.8%" height="114.5%" x="-7.4%" y="-7.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-an" cx="15.426" cy="29.647" rx="1.685" ry="1.726"/>
+    <filter id="bg-img-insects-large-ao" width="114.8%" height="114.5%" x="-7.4%" y="-7.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-ap" cx="11.635" cy="30.942" rx="1.264" ry="1.294"/>
+    <filter id="bg-img-insects-large-aq" width="119.8%" height="119.3%" x="-9.9%" y="-9.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-ar" d="M48.2564997,38.8141474 C46.5259705,30.6031187 39.1486057,33.0967329 39.5454152,30.0688764 C42.289745,9.12825232 36.5098108,0.577687483 34.5960858,1.24957869 C32.2855252,2.06079517 27.6838397,20.297116 29.7877142,33.7897226 C32.1495838,40.3574645 38.8274899,39.7795283 43.4859984,39.8162116 C46.7545232,39.8419495 48.9700425,42.1997711 48.2564997,38.8141474 Z"/>
+    <filter id="bg-img-insects-large-as" width="126.1%" height="112.7%" x="-13.1%" y="-6.3%" filterUnits="objectBoundingBox">
+      <feOffset dx="5" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-at" d="M38.5887029,69.3314075 C46.6154402,75.8698801 54.9532377,71.6354201 55.3111263,64.6770903 C55.669015,57.7187605 50.9525072,55.6093578 46.0372332,53.3341546 C41.1219592,51.0589513 36.3911268,49.5153256 35.4680422,48.3381276 C34.9280684,47.6495058 34.573914,47.1739498 34.4129191,46.9472679 C32.9420761,44.8763106 30.0841453,44.3993185 28.029552,45.8818763 C25.9749588,47.3644341 25.5017357,50.2451274 26.9725788,52.3160847 C27.8711992,53.5813486 33.4879321,65.176388 38.5887029,69.3314075 Z"/>
+    <filter id="bg-img-insects-large-au" width="106.8%" height="107.3%" x="-3.4%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-av" cx="26.118" cy="42.399" rx="10.288" ry="10.483"/>
+    <filter id="bg-img-insects-large-aw" width="109.7%" height="109.5%" x="-4.9%" y="-4.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-ax" cx="23.546" cy="45.02" rx="2.572" ry="2.621"/>
+    <filter id="bg-img-insects-large-ay" width="109.7%" height="109.5%" x="-4.9%" y="-4.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <ellipse id="bg-img-insects-large-az" cx="17.758" cy="46.986" rx="1.929" ry="1.966"/>
+    <filter id="bg-img-insects-large-aA" width="113%" height="112.7%" x="-6.5%" y="-6.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.2   0 0 0 0 0.2   0 0 0 0 0.2  0 0 0 1 0"/>
+    </filter>
+    <path id="bg-img-insects-large-aB" d="M73.6546574,58.9400017 C71.0133233,46.4714025 59.7531351,50.2580018 60.3587916,45.6601456 C64.5475056,13.8614202 55.7255007,0.877229141 52.804552,1.89750838 C49.277907,3.12935563 42.2542817,30.8215465 45.4654585,51.3103194 C49.0704174,61.2835572 59.2630109,60.4059503 66.3733659,60.4616546 C71.3621669,60.5007381 74.7437491,64.0811338 73.6546574,58.9400017 Z"/>
+    <filter id="bg-img-insects-large-aC" width="117.1%" height="108.4%" x="-8.6%" y="-4.2%" filterUnits="objectBoundingBox">
+      <feOffset dx="5" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-104)">
+    <path stroke="#FFF" stroke-dasharray="8" stroke-width="4" d="M955.269129 195.167234C1074.79776 231.122994 1168.36678 211.024445 1168.36678 122.601785 1168.36678 34.1791239 1118.77859 51.4317881 1104.74144 55.9587363 1086.96592 61.6913043 1078.03689 107.465254 1104.74144 143.120817 1131.44599 178.77638 1248.13456 238.028899 1541 93.8886304M668.499316 158.60439C550.838237 122.323013 466.027344 189.87968 457.387695 216.104348 448.748046 242.329016 469.308531 269.565802 490.080047 269.565802 510.851562 269.565802 538.361528 255.584124 521.362404 211.12214 504.363281 166.660156 385.249658 94.0729902 102 189.87968"/>
+    <path stroke="#FFF" stroke-dasharray="8" stroke-width="4" d="M589.408261,84.9043811 C471.747182,48.6230048 390.525449,108.158878 383.873105,134.760145 C377.220761,161.361412 392.013883,171.345787 411.521542,171.345787 C431.029201,171.345787 431.029201,140.088495 426.103574,127.318443 C417.765741,105.701999 375.324762,-3.80357343 139.52746,57.3457869 C116.757062,63.2508387 33.7852721,92.7285994 0.259823552,149.451256" opacity=".4" transform="rotate(180 294.834 105.173)"/>
+    <path stroke="#FFF" stroke-dasharray="8" stroke-width="4" d="M1554.79793,238.746157 C1514.55557,147.522348 1417.80696,133.041518 1404.7395,152.593933 C1391.67204,172.146349 1397.78479,199.317095 1417.29245,199.317095 C1436.8001,199.317095 1448.14116,169.838046 1443.21553,157.067994 C1434.8777,135.451549 1385.50901,41.6159802 1149.71171,102.765341 C1126.94131,108.670392 1043.96952,138.148153 1010.44407,194.870809" opacity=".4" transform="rotate(-16 1282.621 160.562)"/>
+    <g transform="translate(910.281 130)">
+      <path fill="#FFDC6A" fill-opacity=".8" d="M43.7076334,44.0425785 C53.5762723,44.0425785 66.5583462,38.4859569 66.5583462,28.4345654 C66.5583462,18.383174 58.5582337,10.2349113 48.6895949,10.2349113 C38.820956,10.2349113 33.1448599,24.89136 33.1448599,34.9427514 C33.1448599,39.2155662 35.8686388,44.0425785 43.7076334,44.0425785 Z" transform="rotate(-46 49.852 27.139)"/>
+      <g transform="translate(25.2 33)">
+        <mask id="bg-img-insects-large-b" fill="#fff">
+          <use xlink:href="#bg-img-insects-large-a"/>
+        </mask>
+        <use fill="#FFC30D" xlink:href="#bg-img-insects-large-a"/>
+        <ellipse cx="21.6" cy="18.333" fill="#FFD659" mask="url(#bg-img-insects-large-b)" rx="21.6" ry="18.333"/>
+        <path fill="#555" d="M0,-11 L14.4,-11 C14.4,-11 26.8734375,3.91015625 26.8734375,23.8333333 C26.8734375,43.7565104 14.4,58.6666667 14.4,58.6666667 L0,58.6666667 C0,58.6666667 20.6367188,45.7545573 20.6367188,23.8333333 C20.6367188,1.91210937 0,-11 0,-11 Z" mask="url(#bg-img-insects-large-b)"/>
+        <path fill="#555" d="M18,-11 L25.2,-11 C25.2,-11 37.6734375,3.91015625 37.6734375,23.8333333 C37.6734375,43.7565104 25.2,58.6666667 25.2,58.6666667 L18,58.6666667 C18,58.6666667 31.4367188,45.7545573 31.4367188,23.8333333 C31.4367188,1.91210937 18,-11 18,-11 Z" mask="url(#bg-img-insects-large-b)"/>
+      </g>
+      <path fill="#555" fill-rule="nonzero" d="M34.5551094 41.9605179C33.3332105 39.5248755 31.6721644 37.0955703 29.5044221 34.8301254 25.3828603 30.5228002 19.9308884 27.3291899 13.0018271 25.7129324 12.0328019 25.4868997 11.0673476 26.1037615 10.8454246 27.0907316 10.6235016 28.0777018 11.2291476 29.0610349 12.1981729 29.2870676 18.4393298 30.742866 23.2794667 33.5780807 26.9262965 37.3892773 28.8291757 39.3779213 30.2846459 41.5065686 31.349354 43.6288787 31.9775033 44.8809847 32.330538 45.8309797 32.4662828 46.3262635 32.7335709 47.3015006 33.7264623 47.8713942 34.6839678 47.5991564 35.6414734 47.3269185 36.2010052 46.3156403 35.9337172 45.3404032 35.7363366 44.620233 35.2989244 43.4431834 34.5551094 41.9605179zM24.5007868 41.1375188C18.9978072 37.9850512 12.2552485 36.8418188 4.43356795 38.8651119 3.47004487 39.1143537 2.88733183 40.1119585 3.13204194 41.0933246 3.37675205 42.0746907 4.35621858 42.6681947 5.31974166 42.418953 12.2007996 40.6389778 18.0048769 41.6230863 22.7359659 44.3333643 23.7970402 44.9412173 24.7121132 45.5898633 25.4763369 46.2334207 25.9186992 46.6059368 26.2020827 46.8815914 26.3217608 47.0133313 26.9969096 47.7565246 28.1357488 47.8015501 28.8654296 47.1138987 29.5951103 46.4262472 29.6393172 45.2663183 28.9641685 44.523125 28.1558148 43.6333017 26.6629378 42.3761408 24.5007868 41.1375188z"/>
+      <ellipse cx="36" cy="58.667" fill="#4A4A4A" rx="3.6" ry="3.667"/>
+      <ellipse cx="27.9" cy="61.417" fill="#4A4A4A" rx="2.7" ry="2.75"/>
+      <g transform="translate(50.4 14.667)">
+        <use fill="#FFDE7A" fill-opacity=".8" xlink:href="#bg-img-insects-large-c"/>
+        <use fill="#FFCE3A" fill-opacity=".8" xlink:href="#bg-img-insects-large-d"/>
+        <use fill="#FFC000" fill-opacity=".8" xlink:href="#bg-img-insects-large-e"/>
+      </g>
+    </g>
+    <g transform="translate(1277 90.167)">
+      <path fill="#FFDC6A" fill-opacity=".8" d="M63.1332483,63.3946206 C77.3879489,63.3946206 96.1398334,55.3964531 96.1398334,40.9285411 C96.1398334,26.4606292 84.5841154,14.7320692 70.3294148,14.7320692 C56.0747142,14.7320692 47.8759087,35.8284727 47.8759087,50.2963846 C47.8759087,56.4466483 51.8102561,63.3946206 63.1332483,63.3946206 Z" transform="rotate(-46 72.008 39.063)"/>
+      <g transform="translate(36.4 47.5)">
+        <mask id="bg-img-insects-large-g" fill="#fff">
+          <use xlink:href="#bg-img-insects-large-f"/>
+        </mask>
+        <use fill="#FFC30D" xlink:href="#bg-img-insects-large-f"/>
+        <ellipse cx="31.2" cy="26.389" fill="#FFD659" mask="url(#bg-img-insects-large-g)" rx="31.2" ry="26.389"/>
+        <path fill="#555" d="M0,-15.8333333 L20.8,-15.8333333 C20.8,-15.8333333 38.8171875,5.62825521 38.8171875,34.3055556 C38.8171875,62.9828559 20.8,84.4444444 20.8,84.4444444 L0,84.4444444 C0,84.4444444 29.8085938,65.8588325 29.8085938,34.3055556 C29.8085938,2.75227865 0,-15.8333333 0,-15.8333333 Z" mask="url(#bg-img-insects-large-g)"/>
+        <path fill="#555" d="M26,-15.8333333 L36.4,-15.8333333 C36.4,-15.8333333 54.4171875,5.62825521 54.4171875,34.3055556 C54.4171875,62.9828559 36.4,84.4444444 36.4,84.4444444 L26,84.4444444 C26,84.4444444 45.4085938,65.8588325 45.4085938,34.3055556 C45.4085938,2.75227865 26,-15.8333333 26,-15.8333333 Z" mask="url(#bg-img-insects-large-g)"/>
+      </g>
+      <path fill="#555" fill-rule="nonzero" d="M49.9129358 60.3977152C48.1479707 56.8918662 45.748682 53.3951391 42.6174985 50.1342713 36.6641316 43.9343336 28.789061 39.3374703 18.780417 37.0110391 17.3807138 36.685689 15.9861687 37.573596 15.6656133 38.9942349 15.3450578 40.4148738 16.2198799 41.8302775 17.619583 42.1556276 26.6345875 44.251095 33.6258963 48.3320858 38.8935394 53.8178991 41.6421426 56.6803413 43.7444885 59.7443034 45.2824003 62.7991436 46.1897269 64.6014174 46.699666 65.9688344 46.8957419 66.6817429 47.2818246 68.0854933 48.7160011 68.9057946 50.0990646 68.5139372 51.4821282 68.1220797 52.2903408 66.6664519 51.9042581 65.2627015 51.6191528 64.2260929 50.9873353 62.5318549 49.9129358 60.3977152zM35.3900254 59.2130953C27.441277 54.6754525 17.7020256 53.0298908 6.4040426 55.9422066 5.01228704 56.3009637 4.17059042 57.73691 4.52406058 59.1494824 4.87753074 60.5620548 6.29231572 61.4163409 7.68407128 61.0575838 17.6233772 58.4954983 26.0070444 59.9120181 32.8408396 63.8131759 34.3735026 64.6881158 35.6952746 65.6217729 36.7991532 66.5481056 37.4381211 67.084303 37.8474527 67.4810785 38.0203212 67.6707041 38.995536 68.7404521 40.6405261 68.8052616 41.6945094 67.8154602 42.7484926 66.8256588 42.8123471 65.1560642 41.8371322 64.0863162 40.6695103 62.80551 38.5131324 60.9959602 35.3900254 59.2130953z"/>
+      <ellipse cx="52" cy="84.444" fill="#4A4A4A" rx="5.2" ry="5.278"/>
+      <ellipse cx="40.3" cy="88.403" fill="#4A4A4A" rx="3.9" ry="3.958"/>
+      <g transform="translate(72.8 21.111)">
+        <use fill="#FFDE7A" fill-opacity=".8" xlink:href="#bg-img-insects-large-h"/>
+        <use fill="#FFCE3A" fill-opacity=".8" xlink:href="#bg-img-insects-large-i"/>
+        <use fill="#FFC000" fill-opacity=".8" xlink:href="#bg-img-insects-large-j"/>
+      </g>
+    </g>
+    <g transform="translate(925.037)">
+      <path fill="#0086A5" d="M33.3188278,49.6541569 C33.3188278,49.6541569 46.6569726,38.8938108 53.6289881,22.703479 C60.6010037,6.51314719 58.825195,1.58709045 54.5802188,0.281207049 C50.3352425,-1.02467636 45.2285848,1.78412505 38.2565693,17.9744569 C31.2845537,34.1647887 33.3188278,49.6541569 33.3188278,49.6541569"/>
+      <g fill-rule="nonzero">
+        <use fill="#8C6CA3" fill-rule="evenodd" xlink:href="#bg-img-insects-large-k"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-l)" xlink:href="#bg-img-insects-large-k"/>
+      </g>
+      <g transform="matrix(-1 0 0 1 46.059 0)">
+        <use fill="#8C6CA3" xlink:href="#bg-img-insects-large-m"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-n)" xlink:href="#bg-img-insects-large-m"/>
+      </g>
+      <use fill="#FFF" xlink:href="#bg-img-insects-large-o"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-p)" xlink:href="#bg-img-insects-large-o"/>
+      <use fill="#FFF" xlink:href="#bg-img-insects-large-q"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-r)" xlink:href="#bg-img-insects-large-q"/>
+      <path fill="#555" fill-rule="nonzero" d="M20.0955516 26.2363563C19.3849553 24.8358232 18.4189726 23.4389341 17.1583203 22.1362672 14.7614228 19.6594868 11.5908241 17.8231101 7.56122299 16.8937364 6.99768558 16.763764 6.43622485 17.1184693 6.30716535 17.6859929 6.17810586 18.2535164 6.53031981 18.8189485 7.09385722 18.9489209 10.723407 19.7860281 13.5381925 21.4163217 15.6590093 23.6078203 16.7656302 24.7513222 17.6120601 25.9753283 18.231242 27.1956903 18.5965427 27.9156711 18.8018503 28.4619333 18.8807928 28.7467294 19.0362344 29.3075062 19.6136512 29.6352041 20.1704893 29.478663 20.7273274 29.3221219 21.0527236 28.7406209 20.897282 28.179844 20.7824952 27.7657347 20.5281178 27.0889125 20.0955516 26.2363563zM14.2484522 25.7631188C11.04819 23.9503998 7.1270496 23.293023 2.578345 24.4564487 2.01800738 24.5997666 1.67913014 25.1734053 1.8214415 25.7377064 1.96375286 26.3020075 2.53336241 26.6432817 3.09370003 26.4999637 7.09538481 25.4764497 10.4707506 26.0423277 13.2221192 27.6007807 13.8391878 27.9503058 14.3713493 28.3232876 14.8157841 28.6933433 15.0730403 28.907546 15.2378422 29.0660517 15.3074411 29.1418043 15.7000744 29.5691523 16.3623673 29.5950427 16.7867137 29.1996321 17.2110601 28.8042216 17.2367687 28.137244 16.8441354 27.7098961 16.3740367 27.1982336 15.5058529 26.475346 14.2484522 25.7631188z"/>
+      <path fill="#00A5C4" d="M69.7736298,33.6681655 C82.3237718,20.0912199 82.4358973,14.9424497 78.8761301,12.5917633 C75.316363,10.2410769 69.4327146,11.5786313 56.8825725,25.1555769 C44.3324304,38.7325225 40.6040587,53.9951058 40.6040587,53.9951058 C40.6040587,53.9951058 57.2234877,47.245111 69.7736298,33.6681655 Z" transform="rotate(20 60.747 32.824)"/>
+      <path fill="#00A5C4" d="M34.6288795,45.6693532 C34.6288795,45.6693532 51.2483084,38.9193585 63.7984505,25.3424129 C76.3485926,11.7654673 76.460718,6.61669714 72.9009509,4.26601073 C69.3411837,1.91532432 63.4575353,3.25287878 50.9073932,16.8298244 C38.3572512,30.4067699 34.6288795,45.6693532 34.6288795,45.6693532"/>
+    </g>
+    <g transform="scale(-1 1) rotate(28 -308.428 -1209.832)">
+      <path fill="#FFDC6A" fill-opacity=".8" d="M33.5091856,34.0329016 C41.0751421,34.0329016 51.0280654,29.7391485 51.0280654,21.9721642 C51.0280654,14.2051799 44.8946459,7.90879506 37.3286894,7.90879506 C29.7627329,7.90879506 25.4110592,19.2342327 25.4110592,27.001217 C25.4110592,30.3029375 27.4992898,34.0329016 33.5091856,34.0329016 Z" transform="rotate(-46 38.22 20.97)"/>
+      <g transform="translate(19.32 25.5)">
+        <mask id="bg-img-insects-large-t" fill="#fff">
+          <use xlink:href="#bg-img-insects-large-s"/>
+        </mask>
+        <use fill="#FFC30D" xlink:href="#bg-img-insects-large-s"/>
+        <ellipse cx="16.56" cy="14.167" fill="#FFD659" mask="url(#bg-img-insects-large-t)" rx="16.56" ry="14.167"/>
+        <path fill="#555" d="M0,-8.5 L11.04,-8.5 C11.04,-8.5 20.6029687,3.02148438 20.6029687,18.4166667 C20.6029687,33.811849 11.04,45.3333333 11.04,45.3333333 L0,45.3333333 C0,45.3333333 15.8214844,35.3557943 15.8214844,18.4166667 C15.8214844,1.47753906 0,-8.5 0,-8.5 Z" mask="url(#bg-img-insects-large-t)"/>
+        <path fill="#555" d="M13.8,-8.5 L19.32,-8.5 C19.32,-8.5 28.8829687,3.02148438 28.8829687,18.4166667 C28.8829687,33.811849 19.32,45.3333333 19.32,45.3333333 L13.8,45.3333333 C13.8,45.3333333 24.1014844,35.3557943 24.1014844,18.4166667 C24.1014844,1.47753906 13.8,-8.5 13.8,-8.5 Z" mask="url(#bg-img-insects-large-t)"/>
+      </g>
+      <path fill="#555" fill-rule="nonzero" d="M26.4922505 32.4240366C25.5554614 30.5419492 24.2819927 28.6647589 22.6200569 26.9141878 19.4601929 23.5858001 15.2803478 21.1180103 9.96806746 19.8690841 9.2251481 19.6944225 8.48496646 20.1710884 8.3148255 20.9337472 8.14468454 21.6964059 8.60901318 22.4562542 9.35193254 22.6309159 14.1368195 23.755851 17.8475911 25.9466987 20.643494 28.8917143 22.102368 30.4283937 23.2182285 32.0732576 24.0345048 33.7132245 24.5160858 34.6807609 24.7867458 35.4148479 24.8908169 35.7975673 25.0957377 36.5511596 25.8569544 36.9915319 26.591042 36.7811663 27.3251296 36.5708007 27.754104 35.7893584 27.5491831 35.0357661 27.397858 34.4792709 27.0625087 33.5697327 26.4922505 32.4240366zM18.7839365 31.7880827C14.5649855 29.352085 9.39569052 28.4686782 3.39906876 30.032132 2.66036774 30.2247279 2.21362107 30.9956043 2.40123215 31.7539327 2.58884324 32.512261 3.33976758 32.9708777 4.0784686 32.7782818 9.35394638 31.4028465 13.8037389 32.1632939 17.4309072 34.2575997 18.2443975 34.7273043 18.9459535 35.2285307 19.5318583 35.7258251 19.8710027 36.0136785 20.0882634 36.2266842 20.1800166 36.3284833 20.6976307 36.902769 21.5707408 36.9375615 22.1301627 36.4061944 22.6895846 35.8748274 22.7234765 34.9785187 22.2058625 34.4042329 21.5861247 33.7166422 20.4415857 32.7451997 18.7839365 31.7880827z"/>
+      <ellipse cx="27.6" cy="45.333" fill="#4A4A4A" rx="2.76" ry="2.833"/>
+      <ellipse cx="21.39" cy="47.458" fill="#4A4A4A" rx="2.07" ry="2.125"/>
+      <g transform="translate(38.64 11.333)">
+        <use fill="#FFDE7A" fill-opacity=".8" xlink:href="#bg-img-insects-large-u"/>
+        <use fill="#FFCE3A" fill-opacity=".8" xlink:href="#bg-img-insects-large-v"/>
+        <use fill="#FFC000" fill-opacity=".8" xlink:href="#bg-img-insects-large-w"/>
+      </g>
+    </g>
+    <g transform="translate(1386 181)">
+      <path fill="#0086A5" d="M25.2763521,37.7964478 C25.2763521,37.7964478 35.3949447,29.6057366 40.68406,17.2817527 C45.9731752,4.95776876 44.62601,1.20808378 41.4056832,0.214053127 C38.1853564,-0.779977525 34.3113402,1.35806534 29.022225,13.6820493 C23.7331097,26.0060332 25.2763521,37.7964478 25.2763521,37.7964478"/>
+      <g fill-rule="nonzero">
+        <use fill="#8C6CA3" fill-rule="evenodd" xlink:href="#bg-img-insects-large-x"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-y)" xlink:href="#bg-img-insects-large-x"/>
+      </g>
+      <g transform="matrix(-1 0 0 1 34.941 0)">
+        <use fill="#8C6CA3" xlink:href="#bg-img-insects-large-z"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-A)" xlink:href="#bg-img-insects-large-z"/>
+      </g>
+      <use fill="#FFF" xlink:href="#bg-img-insects-large-B"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-C)" xlink:href="#bg-img-insects-large-B"/>
+      <use fill="#FFF" xlink:href="#bg-img-insects-large-D"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-E)" xlink:href="#bg-img-insects-large-D"/>
+      <path fill="#555" fill-rule="nonzero" d="M15.2449012 19.9709578C14.7058282 18.9048803 13.9730137 17.8415767 13.0166568 16.8499945 11.1983207 14.964684 8.793039 13.566845 5.7361002 12.8594113 5.30858906 12.7604771 4.88265333 13.0304766 4.78474613 13.4624722 4.68683893 13.8944677 4.95403571 14.3248713 5.38154686 14.4238055 8.13499845 15.0610065 10.2703529 16.3019762 11.8792485 17.9701319 12.718754 18.8405587 13.3608732 19.7722648 13.8305974 20.7011971 14.107722 21.2492422 14.2634726 21.6650537 14.3233601 21.8818388 14.4412813 22.3086988 14.8793216 22.5581404 15.3017505 22.4389823 15.7241794 22.3198242 15.9710317 21.877189 15.8531105 21.450329 15.7660308 21.1351115 15.5730549 20.6199185 15.2449012 19.9709578zM10.8091706 19.6107322C8.38138551 18.2309013 5.40672728 17.73051 1.95598586 18.6161027 1.53090215 18.7251955 1.27382287 19.1618458 1.38178321 19.5913884 1.48974355 20.0209311 1.92186114 20.280707 2.34694485 20.1716142 5.38270572 19.3925214 7.94332804 19.8232644 10.0305732 21.0095495 10.4986942 21.2756059 10.9024029 21.5595174 11.2395604 21.8412016 11.4347203 22.0042514 11.5597423 22.1249051 11.6125415 22.1825674 11.9104013 22.5078622 12.4128304 22.5275698 12.7347483 22.2265857 13.0566663 21.9256015 13.0761694 21.4179022 12.7783096 21.0926075 12.421683 20.703133 11.7630608 20.1528753 10.8091706 19.6107322z"/>
+      <path fill="#00A5C4" d="M52.9317191,25.6280065 C62.4525166,15.2933166 62.5375773,11.3741035 59.8370643,9.58477504 C57.1365512,7.79544658 52.6730938,8.81358505 43.1522964,19.148275 C33.631499,29.4829649 30.803079,41.1007522 30.803079,41.1007522 C30.803079,41.1007522 43.4109217,35.9626965 52.9317191,25.6280065 Z" transform="rotate(20 46.084 24.986)"/>
+      <path fill="#00A5C4" d="M26.2701844,34.763239 C26.2701844,34.763239 38.8780271,29.6251833 48.3988245,19.2904934 C57.9196219,8.95580347 58.0046826,5.03659036 55.3041696,3.2472619 C52.6036566,1.45793343 48.1401992,2.47607191 38.6194018,12.8107618 C29.0986043,23.1454517 26.2701844,34.763239 26.2701844,34.763239"/>
+    </g>
+    <g transform="matrix(-1 0 0 1 559.182 84.96)">
+      <path fill="#0086A5" d="M20.6806517,31.1264864 C20.6806517,31.1264864 28.9595002,24.3811948 33.2869581,14.2320316 C37.6144161,4.08286839 36.51219,0.994892523 33.8773772,0.176279045 C31.2425643,-0.642334432 28.0729147,1.11840675 23.7454568,11.26757 C19.4179988,21.4167332 20.6806517,31.1264864 20.6806517,31.1264864"/>
+      <g fill-rule="nonzero">
+        <use fill="#8C6CA3" fill-rule="evenodd" xlink:href="#bg-img-insects-large-F"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-G)" xlink:href="#bg-img-insects-large-F"/>
+      </g>
+      <g transform="matrix(-1 0 0 1 28.588 0)">
+        <use fill="#8C6CA3" xlink:href="#bg-img-insects-large-H"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-I)" xlink:href="#bg-img-insects-large-H"/>
+      </g>
+      <use fill="#FFF" xlink:href="#bg-img-insects-large-J"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-K)" xlink:href="#bg-img-insects-large-J"/>
+      <use fill="#FFF" xlink:href="#bg-img-insects-large-L"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-M)" xlink:href="#bg-img-insects-large-L"/>
+      <path fill="#555" fill-rule="nonzero" d="M12.473101 16.4466711C12.0320412 15.568725 11.4324658 14.6930632 10.6499919 13.876466 9.16226242 12.3238574 7.19430464 11.1726959 4.69317289 10.5901034 4.34339105 10.5086282 3.99489818 10.7309808 3.91479229 11.0867418 3.8346864 11.4425028 4.05330195 11.7969528 4.40308379 11.878428 6.65590782 12.4031818 8.40301605 13.4251569 9.71938511 14.7989321 10.4062532 15.5157542 10.9316235 16.2830416 11.3159433 17.0480447 11.5426817 17.4993759 11.670114 17.841809 11.7191128 18.0203378 11.8155938 18.3718696 12.1739904 18.5772921 12.519614 18.4791619 12.8652377 18.3810317 13.0672078 18.0165086 12.9707268 17.6649769 12.8994798 17.4053859 12.7415904 16.9811093 12.473101 16.4466711zM8.84386689 16.1500147C6.85749724 15.0136834 4.42368596 14.6015965 1.60035207 15.3309081 1.2525563 15.4207492 1.04221871 15.7803436 1.1305499 16.1340846 1.21888109 16.4878256 1.57243184 16.7017587 1.9202276 16.6119176 4.40403195 15.9703118 6.49908658 16.3250413 8.2068326 17.3019819 8.58984072 17.5210872 8.92014781 17.7548967 9.19600395 17.9868719 9.35568021 18.1211482 9.45797101 18.2205101 9.50117035 18.2679967 9.74487377 18.5358865 10.1559521 18.5521163 10.4193395 18.304247 10.682727 18.0563777 10.698684 17.6382724 10.4549806 17.3703826 10.1631952 17.049639 9.62432248 16.5964856 8.84386689 16.1500147z"/>
+      <path fill="#00A5C4" d="M43.3077702,21.1054171 C51.0975136,12.594496 51.1671087,9.36690877 48.957598,7.89334415 C46.7480874,6.41977953 43.0961677,7.25824651 35.3064243,15.7691676 C27.516681,24.2800887 25.2025192,33.8476783 25.2025192,33.8476783 C25.2025192,33.8476783 35.5180268,29.6163383 43.3077702,21.1054171 Z" transform="rotate(20 37.705 20.577)"/>
+      <path fill="#00A5C4" d="M21.4937873,28.6285498 C21.4937873,28.6285498 31.8092949,24.3972098 39.5990382,15.8862887 C47.3887816,7.37536757 47.4583767,4.1477803 45.2488661,2.67421568 C43.0393554,1.20065106 39.3874357,2.03911804 31.5976924,10.5500392 C23.807949,19.0609603 21.4937873,28.6285498 21.4937873,28.6285498"/>
+    </g>
+    <g transform="rotate(-6 1228.8 -10455.921)">
+      <path fill="#C33770" d="M69.051311,23.3367062 C77.0194199,4.66224584 62.1607663,-2.84043882 54.3232583,2.63875114 C50.049614,5.62644939 47.213912,4.93254524 39.2458031,23.6070056 C31.2776943,42.2814659 38.0790957,53.592735 38.0790957,53.592735 C38.0790957,53.592735 61.0832021,42.0111665 69.051311,23.3367062 Z"/>
+      <path fill="#00A5C4" fill-rule="nonzero" d="M38.0360293,60.87062 C42.015391,64.252691 42.8480119,65.0739028 50.0673776,67.8218321 C54.7877858,69.6185756 57.3623477,67.6678413 58.3336602,65.4126857 C60.1437307,61.2101338 57.9160742,58.6658422 56.074278,57.4042117 C49.4820897,52.8885625 52.5277799,54.5167925 45.7538869,49.0127822 C41.3942093,45.4704011 41.4262926,48.1781894 38.0661305,44.3810491 C36.895112,43.0577433 35.8767214,41.8333027 35.0180081,40.7409575 C34.5156893,40.1019719 34.1862318,39.6606941 34.0364639,39.4503515 C32.66819,37.5286695 30.0095567,37.0860591 28.0982403,38.4617537 C26.1869239,39.8374482 25.7467011,42.5105001 27.114975,44.4321822 C27.9509302,45.6062453 33.3831794,56.9161493 38.0360293,60.87062 Z"/>
+      <path fill="#313F45" fill-opacity=".1" fill-rule="nonzero" d="M38.0360293,60.87062 C42.015391,64.252691 42.8480119,65.0739028 50.0673776,67.8218321 C54.7877858,69.6185756 57.3623477,67.6678413 58.3336602,65.4126857 C51.3114312,66.9470846 44.0139873,62.5618996 39.9276335,58.8527102 C35.8412796,55.1435208 33.6276202,48.3998067 33.7029758,46.1016621 C33.7783314,43.8035176 34.4332543,42.8568741 35.0180081,40.7409575 C34.6335863,40.3170867 34.1862318,39.6606941 34.0364639,39.4503515 C32.66819,37.5286695 30.0095567,37.0860591 28.0982403,38.4617537 C26.1869239,39.8374482 25.7467011,42.5105001 27.114975,44.4321822 C27.9509302,45.6062453 33.3831794,56.9161493 38.0360293,60.87062 Z"/>
+      <path fill="#313F45" fill-opacity=".1" fill-rule="nonzero" d="M38.0360293,60.87062 C42.015391,64.252691 42.8480119,65.0739028 50.0673776,67.8218321 C54.7877858,69.6185756 59.3880892,67.6442482 58.8277258,61.1019031 C56.421606,68.1520176 46.5480833,61.2570461 42.4617294,57.5478567 C38.3753756,53.8386673 35.7709949,48.516889 35.1675886,46.4728129 C34.5641822,44.4287369 34.7213606,43.6204947 35.3537115,41.2102356 C34.8071603,40.5842244 34.1862318,39.6606941 34.0364639,39.4503515 C32.66819,37.5286695 30.0095567,37.0860591 28.0982403,38.4617537 C26.1869239,39.8374482 25.7467011,42.5105001 27.114975,44.4321822 C27.9509302,45.6062453 33.3831794,56.9161493 38.0360293,60.87062 Z"/>
+      <ellipse cx="26.32" cy="35.23" fill="#00A5C4" rx="9.571" ry="9.728" transform="matrix(-1 0 0 1 52.64 0)"/>
+      <path fill="#313F45" fill-opacity=".2" d="M26.3196286,44.9577622 C31.6054212,44.9577622 35.8904027,40.6025887 35.8904027,35.2302098 C33.216806,39.2133724 25.0335257,46.051087 16.7488546,35.2302098 C16.7488546,40.6025887 21.0338361,44.9577622 26.3196286,44.9577622 Z" transform="matrix(-1 0 0 1 52.64 0)"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-N"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-O)" xlink:href="#bg-img-insects-large-N"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-P"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-Q)" xlink:href="#bg-img-insects-large-P"/>
+      <path fill="#555" fill-rule="nonzero" d="M22.9666073 26.5818748C22.1544879 24.966454 21.0504951 23.3552362 19.6097331 21.8526975 16.8703903 18.9958976 13.2468076 16.8777605 8.64149651 15.8057903 7.99744638 15.6558759 7.35576964 16.0650046 7.20827139 16.7196049 7.06077314 17.3742052 7.46330796 18.0263932 8.10735809 18.1763076 12.2554625 19.1418546 15.4723969 21.0222886 17.8962153 23.5500351 19.1609393 24.8689878 20.1282988 26.2807965 20.8359433 27.6884022 21.2534346 28.5188517 21.4880746 29.1489285 21.5782957 29.4774216 21.7559452 30.12424 22.4158576 30.5022175 23.0522513 30.3216579 23.688645 30.1410983 24.0605306 29.4703758 23.8828811 28.8235574 23.7516946 28.3459101 23.4609743 27.5652412 22.9666073 26.5818748zM16.2841316 26.0360271C12.6266472 23.9451775 8.14529267 23.1869376 2.94671369 24.5288709 2.30632052 24.6941786 1.91902782 25.3558322 2.08167123 26.0067156 2.24431465 26.6575991 2.89530443 27.051236 3.5356976 26.8859283 8.10910393 25.7053737 11.9667089 26.3580759 15.1111661 28.1556467 15.8163955 28.5588005 16.4245869 28.9890099 16.9325183 29.4158444 17.2265288 29.6629128 17.4148759 29.8457385 17.4944184 29.9331139 17.9431473 30.4260311 18.7000622 30.455894 19.185035 29.9998145 19.6700079 29.543735 19.6993894 28.7744212 19.2506606 28.281504 18.7133987 27.6913357 17.7211773 26.8575335 16.2841316 26.0360271z"/>
+      <g transform="translate(39.828 7.36)">
+        <mask id="bg-img-insects-large-S" fill="#fff">
+          <use xlink:href="#bg-img-insects-large-R"/>
+        </mask>
+        <use fill="#E63C81" xlink:href="#bg-img-insects-large-R"/>
+        <path fill="#FA5296" d="M12.4347278,31.0978527 C19.9835853,30.6933508 34.7700873,26.9395423 41.4876553,17.8842025 C48.5384299,8.37969724 43.2788504,-1.1352375 34.4969639,-1.96961625 C16.9545951,-3.63634008 7.41871693,6.85388199 3.78526768,18.9592921 C0.151818439,31.0647023 -0.0867172957,31.7688084 12.4347278,31.0978527 Z" mask="url(#bg-img-insects-large-S)" transform="rotate(-5 23.19 14.564)"/>
+        <path fill="#9366B3" d="M21.205379,24.3168827 C30.4977457,25.7921923 36.4475346,21.5239444 36.1686021,17.4437378 C35.8896697,13.3635312 29.513581,9.39369599 21.205379,10.5705929 C12.8971771,11.7474898 6.24215589,13.6478047 6.24215589,17.4437378 C6.24215589,21.2396709 11.9130123,22.8415731 21.205379,24.3168827 Z" transform="rotate(-33 21.21 17.488)"/>
+        <path fill="#FFF" d="M19.5336261,21.898889 C24.6909037,22.8518305 27.9930456,20.0948563 27.8382376,17.4593431 C27.6834297,14.8238298 24.1446908,12.2596084 19.5336261,13.0197972 C14.9225614,13.779986 11.2290146,15.0074496 11.2290146,17.4593431 C11.2290146,19.9112366 14.3763485,20.9459476 19.5336261,21.898889 Z" opacity=".4" transform="rotate(-33 19.536 17.488)"/>
+      </g>
+    </g>
+    <g transform="scale(-1 1) rotate(-6 534.3 4252.676)">
+      <path fill="#C33770" d="M111.797361,37.7953176 C124.698108,7.55081119 100.641241,-4.60027592 87.951942,4.27362957 C81.0327084,9.11240173 76.4415719,7.9885787 63.5408241,38.2330851 C50.6400764,68.4775915 61.6518692,86.7969296 61.6518692,86.7969296 C61.6518692,86.7969296 98.896613,68.039824 111.797361,37.7953176 Z"/>
+      <path fill="#00A5C4" fill-rule="nonzero" d="M61.5821427,98.5839389 C68.0249187,104.061424 69.3729716,105.391429 81.0614686,109.84188 C88.7040341,112.751824 92.8723725,109.592482 94.4449736,105.940111 C97.375564,99.1338037 93.7688821,95.0131575 90.7869263,92.9698647 C80.1138596,85.6564762 85.0449769,88.2935009 74.0777216,79.3793972 C67.0191961,73.64228 67.0711404,78.0277199 61.630878,71.8780034 C59.7349432,69.7348234 58.0861204,67.751762 56.6958226,65.9826377 C55.8825446,64.9477588 55.3491372,64.2330806 55.1066559,63.8924171 C52.8913552,60.7801277 48.5869013,60.0632914 45.4923891,62.2913185 C42.3978769,64.5193455 41.6851351,68.8485273 43.9004358,71.9608168 C45.253887,73.8622887 54.0489572,92.1794156 61.5821427,98.5839389 Z"/>
+      <path fill="#313F45" fill-opacity=".1" fill-rule="nonzero" d="M61.5821427,98.5839389 C68.0249187,104.061424 69.3729716,105.391429 81.0614686,109.84188 C88.7040341,112.751824 92.8723725,109.592482 94.4449736,105.940111 C83.0756504,108.42517 71.2607414,101.323077 64.6447399,95.3158024 C58.0287383,89.3085283 54.4447185,78.3866434 54.5667227,74.6646485 C54.688727,70.9426535 55.7490784,69.4095026 56.6958226,65.9826377 C56.0734255,65.2961512 55.3491372,64.2330806 55.1066559,63.8924171 C52.8913552,60.7801277 48.5869013,60.0632914 45.4923891,62.2913185 C42.3978769,64.5193455 41.6851351,68.8485273 43.9004358,71.9608168 C45.253887,73.8622887 54.0489572,92.1794156 61.5821427,98.5839389 Z"/>
+      <path fill="#313F45" fill-opacity=".1" fill-rule="nonzero" d="M61.5821427,98.5839389 C68.0249187,104.061424 69.3729716,105.391429 81.0614686,109.84188 C88.7040341,112.751824 96.1521444,109.554271 95.2448894,98.958517 C91.3492669,110.376637 75.3635635,99.2097812 68.747562,93.2025071 C62.1315604,87.1952329 57.9149441,78.5762659 56.9380005,75.2657514 C55.961057,71.9552369 56.2155362,70.646236 57.2393424,66.7426642 C56.35445,65.7287983 55.3491372,64.2330806 55.1066559,63.8924171 C52.8913552,60.7801277 48.5869013,60.0632914 45.4923891,62.2913185 C42.3978769,64.5193455 41.6851351,68.8485273 43.9004358,71.9608168 C45.253887,73.8622887 54.0489572,92.1794156 61.5821427,98.5839389 Z"/>
+      <ellipse cx="42.613" cy="57.058" fill="#00A5C4" rx="15.496" ry="15.754" transform="matrix(-1 0 0 1 85.225 0)"/>
+      <path fill="#313F45" fill-opacity=".2" d="M42.6127321,72.812028 C51.1706819,72.812028 58.108271,65.7585403 58.108271,57.0576224 C53.7795907,63.5086141 40.5304701,74.5827388 27.1171932,57.0576224 C27.1171932,65.7585403 34.0547822,72.812028 42.6127321,72.812028 Z" transform="matrix(-1 0 0 1 85.225 0)"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-T"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-U)" xlink:href="#bg-img-insects-large-T"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-V"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-W)" xlink:href="#bg-img-insects-large-V"/>
+      <path fill="#555" fill-rule="nonzero" d="M37.1840308 43.0510799C35.869171 40.4348005 34.081754 37.8253283 31.7490917 35.3918688 27.3139653 30.765095 21.4472123 27.3346338 13.9909943 25.5985082 12.9482465 25.355712 11.9093413 26.0183227 11.6705346 27.0784905 11.4317279 28.1386584 12.083451 29.1949194 13.1261988 29.4377156 19.8421773 31.0014818 25.0505474 34.0469674 28.9748248 38.1408177 31.0224732 40.2769476 32.5886743 42.5634639 33.7343845 44.8431731 34.4103227 46.1881403 34.790216 47.2085907 34.9362882 47.7406067 35.2239113 48.7881714 36.2923409 49.4003305 37.3226926 49.1079024 38.3530443 48.8154744 38.9551448 47.7291957 38.6675218 46.681631 38.4551246 45.9080501 37.9844346 44.6437059 37.1840308 43.0510799zM26.3647844 42.1670439C20.4431431 38.7807767 13.1876167 37.5527576 4.77086978 39.7261062 3.73404274 39.9938327 3.10699742 41.0654239 3.37032485 42.1195721 3.63365229 43.1737202 4.68763574 43.8112409 5.72446278 43.5435143 13.1290254 41.6315291 19.3746716 42.688623 24.4656976 45.5999061 25.6074975 46.2528399 26.5921884 46.9495921 27.4145535 47.6408784 27.8905704 48.0410218 28.1955133 48.33712 28.3242965 48.4786302 29.05081 49.2769417 30.2762911 49.3253066 31.0614853 48.5866561 31.8466794 47.8480056 31.8942496 46.6020517 31.1677361 45.8037402 30.2978837 44.8479241 28.69143 43.497527 26.3647844 42.1670439z"/>
+      <g transform="translate(64.483 11.92)">
+        <mask id="bg-img-insects-large-Y" fill="#fff">
+          <use xlink:href="#bg-img-insects-large-X"/>
+        </mask>
+        <use fill="#E63C81" xlink:href="#bg-img-insects-large-X"/>
+        <path fill="#FA5296" d="M20.1324164,50.3650006 C32.3543762,49.7098834 56.2944271,43.6303457 67.1704895,28.9646324 C78.5860293,13.5714662 70.0705198,-1.83859117 55.8522272,-3.18992197 C27.4502969,-5.88928992 12.011256,11.1003089 6.12852863,30.7058101 C0.245801282,50.3113113 -0.140399431,51.4516571 20.1324164,50.3650006 Z" mask="url(#bg-img-insects-large-Y)" transform="rotate(-5 37.547 23.588)"/>
+        <path fill="#9366B3" d="M34.3325184,39.3827775 C49.3773026,41.7721376 59.0102941,34.8594317 58.5586891,28.251271 C58.1070842,21.6431104 47.783893,15.2137033 34.3325184,17.1197646 C20.8811438,19.0258259 10.1063476,22.1035098 10.1063476,28.251271 C10.1063476,34.3990323 19.2877342,36.9934173 34.3325184,39.3827775 Z" transform="rotate(-33 34.34 28.323)"/>
+        <path fill="#FFF" d="M31.6258708,35.466679 C39.9757489,37.0100298 45.3220738,32.5449304 45.0714324,28.2765448 C44.8207909,24.0081592 39.0914041,19.8552353 31.6258708,21.0864106 C24.1603375,22.317586 18.1803093,24.3055433 18.1803093,28.2765448 C18.1803093,32.2475463 23.2759928,33.9233281 31.6258708,35.466679 Z" opacity=".4" transform="rotate(-33 31.63 28.323)"/>
+      </g>
+    </g>
+    <g transform="scale(-1 1) rotate(-3 2038.918 14208.708)">
+      <path fill="#6D4886" d="M61.7081536,55.1495373 C58.1013813,44.2014991 42.791783,43.6350188 43.6188139,39.5978768 C49.3385514,11.6770447 23.7089185,7.82115978 19.7203292,8.71701473 C14.9046546,9.7986367 18.896896,26.5688629 23.2817952,44.559005 C28.2044083,53.3159942 42.0893531,54.4910622 51.7986253,54.5399732 C58.6108909,54.5742904 63.1953209,59.6637021 61.7081536,55.1495373 Z" transform="rotate(2 39.758 32.81)"/>
+      <g fill-rule="nonzero">
+        <use fill="#FA5296" fill-rule="evenodd" xlink:href="#bg-img-insects-large-Z"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-aa)" xlink:href="#bg-img-insects-large-Z"/>
+      </g>
+      <g transform="matrix(-1 0 0 1 45.63 0)">
+        <use fill="#FA5296" xlink:href="#bg-img-insects-large-ab"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-ac)" xlink:href="#bg-img-insects-large-ab"/>
+      </g>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-ad"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-ae)" xlink:href="#bg-img-insects-large-ad"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-af"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-ag)" xlink:href="#bg-img-insects-large-af"/>
+      <path fill="#555" fill-rule="nonzero" d="M19.6667379 29.0451287C18.9041192 27.5165283 17.8674173 25.9919052 16.5144732 24.5701201 13.9420999 21.8668584 10.5393831 19.8625601 6.21477672 18.8482028 5.60998298 18.7063455 5.00741797 19.0934857 4.86891009 19.7129046 4.7304022 20.3323235 5.10840157 20.9494598 5.71319531 21.0913171 9.60846284 22.0049709 12.6293175 23.7843414 14.9053984 26.1762346 16.0930345 27.4243004 17.0014311 28.7602317 17.665943 30.0921859 18.0579872 30.878003 18.2783253 31.4742164 18.3630472 31.7850548 18.5298685 32.3971101 19.1495577 32.7547732 19.7471617 32.5839177 20.3447657 32.4130622 20.693984 31.7783877 20.5271626 31.1663324 20.4039723 30.7143562 20.130972 29.9756442 19.6667379 29.0451287zM13.391575 28.5286174C9.957023 26.5501402 5.74881768 25.8326517.867104473 27.1024631.265744789 27.2588863-.0979414986 27.8849795.0547884136 28.5008813.207518326 29.1167831.818828727 29.4892641 1.42018841 29.3328408 5.71483473 28.2157349 9.33730952 28.8333578 12.2901046 30.5343185 12.9523485 30.9158048 13.5234693 31.3228926 14.000441 31.726787 14.2765308 31.9605767 14.4533977 32.1335765 14.528092 32.216256 14.9494698 32.6826815 15.6602488 32.7109393 16.1156615 32.2793717 16.5710741 31.8478042 16.5986648 31.119837 16.177287 30.6534115 15.6727725 30.0949617 14.7410294 29.305972 13.391575 28.5286174z"/>
+      <g transform="rotate(2 51.76 27.901)">
+        <use fill="#9366B3" xlink:href="#bg-img-insects-large-ah"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-ai)" xlink:href="#bg-img-insects-large-ah"/>
+      </g>
+    </g>
+    <g transform="scale(-1 1) rotate(-3 905.283 4565.663)">
+      <path fill="#6D4886" d="M46.2811152,41.362153 C43.576036,33.1511243 32.0938372,32.7262641 32.7141105,29.6984076 C37.0039136,8.75778352 17.7816889,5.86586984 14.7902469,6.53776105 C11.1784909,7.34897753 14.172672,19.9266472 17.4613464,33.4192538 C21.1533063,39.9869957 31.5670148,40.8682966 38.848969,40.9049799 C43.9581681,40.9307178 47.3964907,44.7477766 46.2811152,41.362153 Z" transform="rotate(2 29.818 24.607)"/>
+      <g fill-rule="nonzero">
+        <use fill="#FA5296" fill-rule="evenodd" xlink:href="#bg-img-insects-large-aj"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-ak)" xlink:href="#bg-img-insects-large-aj"/>
+      </g>
+      <g transform="matrix(-1 0 0 1 34.223 0)">
+        <use fill="#FA5296" xlink:href="#bg-img-insects-large-al"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-am)" xlink:href="#bg-img-insects-large-al"/>
+      </g>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-an"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-ao)" xlink:href="#bg-img-insects-large-an"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-ap"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-aq)" xlink:href="#bg-img-insects-large-ap"/>
+      <path fill="#555" fill-rule="nonzero" d="M14.7500534 21.7838465C14.1780894 20.6373962 13.400563 19.4939289 12.3858549 18.4275901 10.4565749 16.4001438 7.90453736 14.8969201 4.66108254 14.1361521 4.20748724 14.0297592 3.75556348 14.3201143 3.65168256 14.7846785 3.54780165 15.2492426 3.83130118 15.7120949 4.28489648 15.8184878 7.20634713 16.5037282 9.47198812 17.838256 11.1790488 19.6321759 12.0697758 20.5682253 12.7510733 21.5701738 13.2494572 22.5691394 13.5434904 23.1585023 13.708744 23.6056623 13.7722854 23.8387911 13.8974014 24.2978325 14.3621683 24.5660799 14.8103713 24.4379383 15.2585743 24.3097967 15.520488 23.8337908 15.395372 23.3747493 15.3029792 23.0357671 15.098229 22.4817331 14.7500534 21.7838465zM10.0436812 21.3964631C7.46776725 19.9126051 4.31161326 19.3744887.650328354 20.3268473.199308592 20.4441647-.073456124 20.9137346.0410913102 21.375661.155638744 21.8375873.614121545 22.116948 1.06514131 21.9996306 4.28612605 21.1618011 7.00298214 21.6250183 9.21757843 22.9007388 9.7142614 23.1868536 10.1426019 23.4921695 10.5003308 23.7950902 10.7073981 23.9704326 10.8400483 24.1001824 10.896069 24.162192 11.2121023 24.5120111 11.7451866 24.5332045 12.0867461 24.2095288 12.4283056 23.8858531 12.4489986 23.3398777 12.1329652 22.9900587 11.7545794 22.5712213 11.055772 21.979479 10.0436812 21.3964631z"/>
+      <g transform="rotate(2 38.82 20.926)">
+        <use fill="#9366B3" xlink:href="#bg-img-insects-large-ar"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-as)" xlink:href="#bg-img-insects-large-ar"/>
+      </g>
+    </g>
+    <g transform="rotate(-3 4989.064 -18474.702)">
+      <path fill="#6D4886" d="M70.6395969,62.8091953 C66.5107918,50.3405962 48.9853305,49.6954381 49.9320633,45.0975819 C56.4796575,13.2988565 27.1404725,8.90743198 22.5745873,9.92771122 C17.0619072,11.1595585 21.6319731,30.2589828 26.6515287,50.7477557 C32.2866253,60.7209934 48.1812332,62.0592653 59.2957947,62.1149695 C67.0940461,62.154053 72.3420121,67.9503274 70.6395969,62.8091953 Z" transform="rotate(2 45.512 37.366)"/>
+      <g fill-rule="nonzero">
+        <use fill="#FA5296" fill-rule="evenodd" xlink:href="#bg-img-insects-large-at"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-au)" xlink:href="#bg-img-insects-large-at"/>
+      </g>
+      <g transform="matrix(-1 0 0 1 52.235 0)">
+        <use fill="#FA5296" xlink:href="#bg-img-insects-large-av"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-aw)" xlink:href="#bg-img-insects-large-av"/>
+      </g>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-ax"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-ay)" xlink:href="#bg-img-insects-large-ax"/>
+      <use fill="#4A4A4A" xlink:href="#bg-img-insects-large-az"/>
+      <use fill="#000" filter="url(#bg-img-insects-large-aA)" xlink:href="#bg-img-insects-large-az"/>
+      <path fill="#555" fill-rule="nonzero" d="M22.5132394 33.0791743C21.6402417 31.3382683 20.4534909 29.601892 18.9047259 27.9826368 15.9600354 24.9039221 12.0648202 22.6212491 7.11428388 21.4660088 6.42195421 21.3044491 5.73217583 21.7453587 5.57362076 22.450808 5.41506568 23.1562574 5.84777549 23.859107 6.54010516 24.0206667 10.9991614 25.0612169 14.457245 27.0877221 17.0627587 29.8118227 18.4222894 31.233231 19.4621645 32.7547084 20.2228558 34.2716561 20.6716432 35.1666146 20.9238724 35.8456354 21.0208566 36.1996457 21.2118232 36.8967087 21.9212043 37.3040472 22.6053036 37.1094618 23.2894029 36.9148764 23.6891659 36.1920526 23.4981993 35.4949897 23.3571788 34.980239 23.0446654 34.1389281 22.5132394 33.0791743zM15.3298292 32.4909254C11.3981711 30.2376596 6.5808834 29.4205199.992606436 30.866694.30420785 31.0448427-.112117242 31.7578933.0627183156 32.459337.237553873 33.1607807.937343411 33.5849952 1.625742 33.4068465 6.54198187 32.1345869 10.6887622 32.8379908 14.0689355 34.775196 14.8270306 35.2096666 15.4808135 35.6732944 16.0268206 36.1332852 16.3428708 36.3995457 16.5453369 36.5965733 16.6308421 36.690736 17.1132088 37.2219428 17.9268638 37.2541253 18.4481914 36.7626178 18.969519 36.2711103 19.0011031 35.4420366 18.5187364 34.9108298 17.9412001 34.2748175 16.8745994 33.3762459 15.3298292 32.4909254z"/>
+      <g transform="rotate(2 59.253 31.777)">
+        <use fill="#9366B3" xlink:href="#bg-img-insects-large-aB"/>
+        <use fill="#000" filter="url(#bg-img-insects-large-aC)" xlink:href="#bg-img-insects-large-aB"/>
+      </g>
+    </g>
+  </g>
+</svg>

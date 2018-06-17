@@ -11,16 +11,18 @@
 //	COLOURS
 // --------------------------------------------------------------------
 
-$pink:							#F64082 !default;
-$teal:							#2CCCDF !default;
-$purple:						#9070CB !default;
-$blue: 							#4B81CE !default;
-$red:								#ED5265 !default;
-$green:							#67C17F !default;
-$yellow:						#FFCB4D !default;
-$light-grey:				#F1F6F8 !default;
-$medium-grey:				#586C76 !default;
-$dark-grey:					#323F46 !default;
+$pink:							#F7008A !default;
+$teal:							#00B9DA !default;
+$purple:						#724096 !default;
+$blue: 							#0072A7 !default;
+$red:								#EA1616 !default;
+$green:							#19B22E !default;
+$yellow:						#FFC200 !default;
+
+$dark-grey:					#3C4F59 !default;
+$darker-grey:				smart-scale($dark-grey, -30%);
+$medium-grey:				smart-scale($dark-grey, 20%) !default; // #586C76
+$light-grey:				smart-scale($dark-grey, 50%) !default; // #F1F6F8
 
 $black:							#000 !default;
 $white:							#fff !default;
@@ -37,3 +39,15 @@ $colour-success: 		$green;
 $colour-warning: 		$yellow;
 $colour-error: 			$red;
 
+
+// --------------------------------------------------------------------
+//	GRADIENTS
+//	W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+// --------------------------------------------------------------------
+
+$pink-gradient-linear: 	linear-gradient(to bottom, $pink 0%, smart-scale($pink, 20%) 100%);
+$pink-gradient-radial: 	radial-gradient(ellipse at center, smart-scale($pink, -30%) 0%, smart-scale($pink, 20%) 100%); // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+$teal-gradient: 				linear-gradient(35deg, smart-scale($teal, 5%) 0%,$blue 70%); 
+$teal-gradient-radial: 	radial-gradient(ellipse at center, smart-scale($teal, 10%) 0%, $blue 100%);
+$grey-gradient:					linear-gradient(35deg, $medium-grey 0%,$dark-grey 50%);
+$dark-grey-gradient:		linear-gradient(35deg, $dark-grey 0%,$darker-grey 50%);

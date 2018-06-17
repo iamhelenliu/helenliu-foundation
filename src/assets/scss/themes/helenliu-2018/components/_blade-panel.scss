@@ -1,0 +1,130 @@
+// ====================================================================
+// 
+//	BLADE PANEL
+//	Blade panel.
+//
+//	File name:	_blade-panel.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+
+.blade-panel {
+	position: relative;
+	border-top: $border-panel;
+
+	&.padded {
+		padding: {
+			top: $space-xl;
+			bottom: $space-xl;
+		}
+
+		@include breakpoint(small down) { // 320
+			padding: {
+				top: $space-m;
+				bottom: $space-l;
+			}
+		}
+	}
+}
+
+.blade-panel--text {
+	padding: {
+		top: $space-xl;
+		bottom: $space-xl;
+	}
+
+	@include breakpoint(small down) { // 320
+		padding: {
+			top: $space-m;
+			bottom: $space-m;
+		}
+	}
+}
+
+.blade-panel--title {
+	font: {
+		size: rem-calc(40);
+	}
+	
+	@include breakpoint(medium down) { // 320
+		font: {
+			size: rem-calc(32);
+		}
+	}
+
+	@include breakpoint(small down) { // 320
+		font: {
+			size: rem-calc(30);
+		}
+	}
+
+	span {
+		display: block;
+		margin: {
+			top: rem-calc($space-xs);
+		}
+		font: {
+			size: rem-calc(28);
+		}
+		color: $medium-grey;
+
+		@include breakpoint(medium down) { // 320
+			font: {
+				size: rem-calc(20);
+			}
+		}
+
+		@include breakpoint(small down) { // 320
+			font: {
+				size: rem-calc(20);
+			}
+		}
+	}
+}
+
+.blade-panel--content {
+	* {
+		// font: {
+		// 	size: rem-calc(18);
+		// }
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		@include breakpoint(medium down) { // 320
+			// font: {
+			// 	size: rem-calc(15);
+			// }
+		}
+
+	}
+}
+
+.blade-panel--image {
+	@include breakpoint(small down) { // 320
+		margin: {
+			bottom: rem-calc($space-m);
+		}
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+.blade-panel--action {
+	position: absolute;
+	left: 0;
+	bottom: -46px;
+	z-index: 1;
+	text-align: center;
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

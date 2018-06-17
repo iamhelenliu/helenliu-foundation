@@ -6,3 +6,95 @@
 // 
 // ====================================================================
 
+// * {
+// 	position: relative;
+// }
+
+* {
+	&:focus {
+		outline: 2px dashed $dark-grey;
+	}
+}
+
+body {
+	background: {
+		image: url('../img/bg-img-stripe.svg');
+	}
+}
+
+hr {
+	position: relative;
+	border-bottom: 2px solid smart-scale($light-grey, -80%);
+	height: rem-calc(30);
+	margin: $space-xl 0;
+
+	&:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: rem-calc(54);
+		content: "";
+		background: {
+			image: url('../img/img-bugs-hr.svg');
+			repeat: no-repeat;
+			position: center center;
+		}
+	}
+
+	@include breakpoint(small down) { // 768
+		margin: $space-l 0;
+	}
+}
+
+
+.row {
+	&:nth-child(even) {
+		background: {
+			color: smart-scale($medium-grey, -98%);
+		}
+	}
+	&:nth-child(odd) {
+		background: {
+			color: $white;
+		}
+	}
+}
+
+.small-margin-left {
+	margin-left: rem-calc($space-s);
+}
+
+.small-margin-right{
+	margin-right: rem-calc($space-s);
+}
+
+.medium-margin-left {
+	margin-left: rem-calc($space-m);
+}
+
+.medium-margin-right{
+	margin-right: rem-calc($space-m);
+}
+
+.large-padding-top {
+	padding-top: rem-calc($space-xxl) !important;
+
+	@include breakpoint(small down) { // 768
+		padding-top: rem-calc($space-xl) !important;
+	}
+}
+
+.large-padding-bottom {
+	padding-bottom: rem-calc($space-xxl) !important;
+
+	@include breakpoint(small down) { // 768
+		padding-bottom: rem-calc($space-xl) !important;
+	}
+}
+
+.icon-small {
+	font: {
+		size: 1em;
+	}
+}

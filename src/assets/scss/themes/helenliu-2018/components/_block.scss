@@ -1,0 +1,58 @@
+// ====================================================================
+// 
+//	BLOCK
+//	Blocks for blade
+//
+//	File name:	_block.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+.block {
+	// background: {
+	// 	color: $white;
+	// }
+	border: {
+		right: 1px solid smart-scale($medium-grey, -90%);
+		bottom: 1px solid smart-scale($medium-grey, -90%);
+	}
+	// background: $medium-grey;
+
+	
+}
+
+.block--item {
+	padding: $space-l $space-xl;
+	
+	border-radius: 6px;
+	@include breakpoint(medium down) { // 768
+		padding: rem-calc(30);
+	}
+
+	@include breakpoint(small down) { // 320
+		padding: rem-calc($space-m);
+	}
+}
+
+.block--title {
+	// color: color-pick-contrast($medium-grey, $white $dark-grey);
+	font: {
+		size: rem-calc(40);
+	}
+}
+
+.block--content {
+	* {
+		font: {
+			size: rem-calc(16);
+			weight: $regular;
+		}
+
+		@include breakpoint(small down) { // 768
+			font: {
+				size: rem-calc(14);
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+// ====================================================================
+// 
+//	FOOTER GLOBAL
+//	Global footer.
+//
+//	File name:	_footer-global.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+.footer-global {
+	background: {
+		image: url('/assets/img/bg-img-footer.svg');
+		repeat: no-repeat;
+		position: left top;
+		size: cover;
+	}
+	padding: {
+		bottom: $space-l;
+	}
+	font: {
+		size: rem-calc(14);
+	}
+	color: $white;
+
+	* {
+		font:{
+			size: rem-calc(14);
+		}
+
+		@include breakpoint(small down) {
+			font:{
+				size: rem-calc(12);
+			}
+		}
+	}
+
+	@include breakpoint(medium down) { // 768
+		background: {
+			size: 150%;
+		}
+		padding: {
+			bottom: $space-l;
+		}
+	}
+
+	@include breakpoint(small down) { // 768
+		background: {
+			size: 300%;
+		}
+		padding: {
+			bottom: $space-m;
+		}
+	}
+}

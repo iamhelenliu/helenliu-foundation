@@ -1,0 +1,158 @@
+// ====================================================================
+// 
+//	CALL OUT TIP
+//	Tip for secondary content
+//
+//	File name:	_call-out.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+
+%tag {
+	display: inline-block;
+	font: {
+		family: $sans-serif-typeface-2;
+		size: 1.2em;
+		weight: $regular;
+	}
+}
+
+%tag--bubble {
+	position: relative;
+	display: inline-block;
+	border-radius: $border-radius-default;
+	padding: $space-xs $space-s;
+	margin-bottom: rem-calc($space-s);
+	width: auto;
+
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: rem-calc(-6);
+		left: 50%;
+		transform: translateX(-50%);
+		color: transparent;
+		border-top: {
+			width: rem-calc(6);
+			style: solid;
+		}
+		border-left: {
+			width: rem-calc(6);
+			style: solid;
+		}
+		border-right: {
+			width: rem-calc(6);
+			style: solid;
+		}
+	}
+
+	& .large {
+		padding: 0.2em;
+		font: {
+			size: 2.6em;
+		}
+	}
+
+	.tag--label {
+		@extend %tag;
+		margin: {
+			bottom: 0;
+		}
+	}
+
+	.tag--icon {
+		margin-right: $space-xs;
+		float: left;
+	}
+
+	svg { // Foundation icons
+		font: {
+			size: rem-calc(14);
+		}
+		margin-bottom: 2px;
+		margin-right: 2px;
+	}
+}
+
+.tag-1 {
+	@extend %tag;
+	font: {
+		size: 1.4em;
+	}
+	color: $purple;
+}
+
+.tag-2 {
+	@extend %tag;
+	font: {
+		size: 1.4em;
+	}
+	color: $teal;
+}
+
+.tag--bubble-1 {
+	@extend %tag--bubble;
+	background: {
+		color: $pink;
+	}
+
+	&:after { // Arrow
+		border-top: {
+			color: $pink;
+		}
+	}
+
+	.tag--label {
+		color: $white;
+	}
+
+	svg { // Foundation icons
+		color: $white;
+	}
+}
+
+.tag--bubble-2 {
+	@extend %tag--bubble;
+	background: {
+		color: $purple;
+	}
+	// background: linear-gradient(45deg, #8e66ab 0%,$purple 100%); // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+
+	&:after { // Arrow
+		border-top: {
+			color: $purple;
+		}
+	}
+
+	.tag--label {
+		color: $white;
+	}
+
+	svg { // Foundation icons
+		color: $white;
+	}
+}
+
+.tag--bubble-3 {
+	@extend %tag--bubble;
+	background: {
+		color: $blue;
+	}
+	background: $blue;
+
+	&:after { // Arrow
+		border-top: {
+			color: $blue;
+		}
+	}
+
+	.tag--label {
+		color: $white;
+	}
+
+	svg { // Foundation icons
+		color: $white;
+	}
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="691" height="735" viewBox="0 0 691 735">
+  <defs>
+    <filter id="bg-img-glow-a" width="176.8%" height="169%" x="-38.4%" y="-34.5%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+    </filter>
+  </defs>
+  <ellipse cx="345.192" cy="367.5" fill="#FFF" fill-rule="evenodd" filter="url(#bg-img-glow-a)" opacity=".7" rx="195.192" ry="217.5"/>
+</svg>

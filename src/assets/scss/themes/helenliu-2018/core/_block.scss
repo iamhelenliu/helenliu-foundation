@@ -1,0 +1,24 @@
+// ====================================================================
+// 
+//	BLOCK
+//	Blocks for blade
+//
+//	File name:	_block.scss
+//	Author:			Helen Liu
+//	Version 		1.0
+// 
+// ====================================================================
+
+.block {
+	// padding: $space-l;
+	// padding-bottom: 1px;
+	// padding-right: 1px;
+}
+
+.block--content {
+	* {
+		font: {
+			size: rem-calc(16);
+		}
+	}
+}

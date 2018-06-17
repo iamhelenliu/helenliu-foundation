@@ -46,7 +46,7 @@ function clean(done) {
 function copy() {
   return gulp.src(PATHS.assets)
     .pipe(gulp.dest(PATHS.dist + '/assets'))
-    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static')); // Copies to Hugo site theme helenliu-2018
+    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/assets')); // Copies to Hugo site theme helenliu-2018
 }
 
 // Copy page templates into finished HTML files
@@ -93,7 +93,7 @@ function sass() {
     .pipe($.if(PRODUCTION, $.cleanCss({ compatibility: 'ie9' })))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
     .pipe(gulp.dest(PATHS.dist + '/assets/css'))
-    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/css')) // Copies to Hugo site theme helenliu-2018
+    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/assets/css')) // Copies to Hugo site theme helenliu-2018
     .pipe(browser.reload({ stream: true }));
 }
 
@@ -114,7 +114,8 @@ let webpackConfig = {
 // Combine JavaScript into one file
 // In production, the file is minified
 function javascript() {
-  return gulp.src(PATHS.entries)
+  // return gulp.src(PATHS.entries)
+  return gulp.src('src/assets/js/**/*')
     .pipe(named())
     .pipe($.sourcemaps.init())
     .pipe(webpackStream(webpackConfig, webpack2))
@@ -123,7 +124,7 @@ function javascript() {
     ))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
     .pipe(gulp.dest(PATHS.dist + '/assets/js'))
-    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/js')); // Copies to Hugo site theme helenliu-2018
+    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/assets/js')); // Copies to Hugo site theme helenliu-2018
 }
 
 // Copy images to the "dist" folder
@@ -134,7 +135,7 @@ function images() {
       progressive: true
     })))
     .pipe(gulp.dest(PATHS.dist + '/assets/img'))
-    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/img')); // Copies to Hugo site theme helenliu-2018
+    .pipe(gulp.dest('../helenliu-site/themes/helenliu-2018/static/assets/img')); // Copies to Hugo site theme helenliu-2018
 }
 
 // Start a server with BrowserSync to preview the site in
