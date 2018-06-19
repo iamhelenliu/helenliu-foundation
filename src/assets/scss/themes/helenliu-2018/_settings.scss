@@ -67,7 +67,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(2048);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: $colour-primary,
@@ -111,9 +111,11 @@ $breakpoints: (
   large: 1024px,
   xlarge: 1200px,
   xxlarge: 1440px,
+  xxxlarge: 1920px,
+  cinema: 2048px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large xlarge xxlarge);
+$breakpoint-classes: (small medium large xlarge xxlarge xxxlarge cinema);
 
 // 3. The Grid
 // -----------

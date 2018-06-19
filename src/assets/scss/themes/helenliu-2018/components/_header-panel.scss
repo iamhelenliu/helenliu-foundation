@@ -57,8 +57,20 @@
 	* {
 		font: {
 			family: $serif-typeface-1;
-			size: 1.7vw;
+			size: 1.3vw;
 			weight: $regular;
+		}
+
+		// @include breakpoint(xxxlarge) {
+		// 	font: {
+		// 		size: 1.3vw;
+		// 	}
+		// }
+
+		@include breakpoint(xlarge down) {
+			font: {
+				size: 1.6vw;
+			}
 		}
 
 		@include breakpoint(large down) {
