@@ -11,7 +11,7 @@
 
 .header--panel {
 	position: relative;
-	padding: $global-padding;
+	padding: $space-s $space-m;
 	text-align: center;
 }
 
@@ -26,16 +26,24 @@
 		weight: $bold;
 	}
 
-	@include breakpoint(medium down) {
+	@include breakpoint(medium down) { // 768
 		font: {
 			size: 6vw;
 		}
+	}
+
+	@include breakpoint(smed down) {
+		font: {
+			size: 10vw;
+		}
+		line-height: 0.9em;
 	}
 
 	@include breakpoint(small down) {
 		font: {
 			size: 12vw;
 		}
+		line-height: 1em;
 	}
 
 	// Sub-title
@@ -43,23 +51,34 @@
 		font: {
 			weight: $regular;
 		}
-		@include breakpoint(small down) {
+
+		@include breakpoint(smed down) {
 			display: block;
+			font: {
+				size: 7vw;
+			}
+			margin-bottom: 0.25em;
+			color: $medium-grey;
+		}
+
+		@include breakpoint(small down) {
+			// display: block;
 			font: {
 				size: 9vw;
 			}
-			color: $medium-grey;
+			// margin-bottom: 0.25em;
+			// color: $medium-grey;
 		}
 	}
 }
 
 .header--panel--content {
 	* {
-		font: {
-			family: $serif-typeface-1;
-			size: 1.3vw;
-			weight: $regular;
-		}
+		// font: {
+		// 	family: $serif-typeface-1;
+		// 	size: 1.3vw;
+		// 	weight: $regular;
+		// }
 
 		// @include breakpoint(xxxlarge) {
 		// 	font: {
@@ -67,27 +86,27 @@
 		// 	}
 		// }
 
-		@include breakpoint(xlarge down) {
+		@include breakpoint(xlarge) { // 1200
 			font: {
 				size: 1.6vw;
 			}
 		}
 
-		@include breakpoint(large down) {
+		@include breakpoint(large down) { // 1024
+			font: {
+				size: 1.8vw;
+			}
+		}
+
+		@include breakpoint(medium down) { // 768
 			font: {
 				size: 2vw;
 			}
 		}
 
-		@include breakpoint(medium down) {
+		@include breakpoint(small down) { // >768
 			font: {
-				size: 2.5vw;
-			}
-		}
-
-		@include breakpoint(small down) {
-			font: {
-				size: 4.5vw;
+				size: rem-calc(18); //4.3vw;
 			}
 		}
 	}

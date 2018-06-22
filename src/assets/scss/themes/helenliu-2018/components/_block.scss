@@ -44,15 +44,15 @@
 
 .block--content {
 	* {
-		font: {
-			size: rem-calc(16);
-			weight: $regular;
-		}
+		// font: {
+		// 	size: rem-calc(16);
+		// 	weight: $regular;
+		// }
 
-		@include breakpoint(small down) { // 768
-			font: {
-				size: rem-calc(14);
-			}
-		}
+		// @include breakpoint(small down) { // 768
+		// 	font: {
+		// 		size: rem-calc(14);
+		// 	}
+		// }
 	}
 }

@@ -11,10 +11,6 @@
 
 
 .feature {
-	// background: {
-	// 	image: url('../img/bg-img-stripe.svg');
-	// }
-	// border-bottom: $border-panel;
 }
 
 .feature-panel {
@@ -51,7 +47,7 @@
 
 			}
 
-			@include breakpoint(small down) {
+			@include breakpoint(smed down) {
 				max-width: 170%;
 			}
 		}
@@ -72,7 +68,7 @@
 			left: 50%;
 			transform: translateX(-50%);
 
-			@include breakpoint(small down) {
+			@include breakpoint(smed down) {
 				max-width: 170%;
 			}
 		}
@@ -90,7 +86,7 @@
 			transform: translateX(-50%);
 			max-width: 150%;
 
-			@include breakpoint(small down) {
+			@include breakpoint(smed down) {
 				max-width: 300%;
 			}
 		}
@@ -106,6 +102,9 @@
 
 		@include breakpoint(large down) { // 768
 			max-width: 40%;
+		}
+		@include breakpoint(smed down) { // 320
+			max-width: 60%;
 		}
 		@include breakpoint(small down) { // 320
 			max-width: 80%;

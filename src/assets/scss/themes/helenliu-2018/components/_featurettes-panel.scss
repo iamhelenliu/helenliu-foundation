@@ -15,11 +15,16 @@
 }
 
 .featurettes-panel--item {
-	padding: rem-calc($space-m);
-	// padding-left: 0;
+	padding: rem-calc($space-xl);
+	padding-left: 0;
 	// text-align: center;
 
-	@include breakpoint(small down) { // 768
+	@include breakpoint(large down) { // 1024
+		padding: rem-calc($space-xl);
+		padding-left: 0;
+	}
+
+	@include breakpoint(smed down) { // 420
 		padding: 0;
 	}
 }
@@ -34,7 +39,7 @@
 .featurettes-panel--title {
 	font: {
 		family: $sans-serif-typeface-2;
-		size: rem-calc(34);
+		size: 2vw; //rem-calc(34);
 		weight: $regular;
 	}
 	line-height: 1.2em;
@@ -42,7 +47,13 @@
 
 	@include breakpoint(medium down) { // 768
 		font: {
-			size: rem-calc(24);
+			size: 5vw; //rem-calc(24);
+		}
+	}
+
+	@include breakpoint(smed down) { // 768
+		font: {
+			size: 8vw; //rem-calc(24);
 		}
 	}
 }
@@ -50,16 +61,22 @@
 .featurettes-panel--content {
 
 	* {
-		font: {
-			size: rem-calc(16);
-			weight: $regular;
-		}
+		// font: {
+		// 	size: 0.9vw; //rem-calc(16);
+		// 	weight: $regular;
+		// }
 
-		@include breakpoint(medium down) { // 768
-			font: {
-				size: rem-calc(13);
-			}
-		}
+		// @include breakpoint(xlarge) { // 1024
+		// 	font: {
+		// 		size: 0.9vw; //rem-calc(16);
+		// 	}
+		// }
+
+		// @include breakpoint(medium down) { // 768
+		// 	font: {
+		// 		size: 4vw; //rem-calc(13);
+		// 	}
+		// }
 	}
 	
 }

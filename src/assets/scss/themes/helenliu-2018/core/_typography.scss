@@ -8,7 +8,6 @@
 // 
 // ====================================================================
 
-
 // -------------------------------------------------------------------
 // 	VARIABLES
 // -------------------------------------------------------------------
@@ -160,19 +159,25 @@ $fixed-typeface-1: Consolas, 'Liberation Mono', Courier, monospace;
 // ------------------------------------------------------------------------
 
 p, li {
-  font:{
-    size: rem-calc(18);
-  }
+  // font:{
+  //   size: 1vw; //rem-calc(18);
+  // }
 
-  @include breakpoint(medium down) { // 768
-    font: {
-      size: rem-calc(15);
-    }
-  }
+  // @include breakpoint(medium down) { // 768
+  //   font: {
+  //     size: 2vw; //rem-calc(15);
+  //   }
+  // }
+
+  // @include breakpoint(smed down) { // 320
+  //   font: {
+  //     size: 3.5vw; //rem-calc(13);
+  //   }
+  // }
 
   @include breakpoint(small down) { // 320
     font: {
-      size: rem-calc(13);
+      size: rem-calc(14);
     }
   }
 }
