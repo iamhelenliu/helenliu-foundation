@@ -47,7 +47,7 @@
 
 			}
 
-			@include breakpoint(smed down) {
+			@include breakpoint(small down) {
 				max-width: 170%;
 			}
 		}
@@ -68,7 +68,7 @@
 			left: 50%;
 			transform: translateX(-50%);
 
-			@include breakpoint(smed down) {
+			@include breakpoint(small down) {
 				max-width: 170%;
 			}
 		}
@@ -86,7 +86,7 @@
 			transform: translateX(-50%);
 			max-width: 150%;
 
-			@include breakpoint(smed down) {
+			@include breakpoint(small down) {
 				max-width: 300%;
 			}
 		}

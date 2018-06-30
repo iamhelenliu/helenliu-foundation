@@ -10,16 +10,10 @@
 // ====================================================================
 
 .block {
-	// background: {
-	// 	color: $white;
-	// }
 	border: {
 		right: 1px solid smart-scale($medium-grey, -90%);
 		bottom: 1px solid smart-scale($medium-grey, -90%);
 	}
-	// background: $medium-grey;
-
-	
 }
 
 .block--item {
@@ -36,23 +30,10 @@
 }
 
 .block--title {
-	// color: color-pick-contrast($medium-grey, $white $dark-grey);
-	font: {
-		size: rem-calc(40);
-	}
+	// font: {
+	// 	size: rem-calc(40);
+	// }
 }
 
 .block--content {
-	* {
-		// font: {
-		// 	size: rem-calc(16);
-		// 	weight: $regular;
-		// }
-
-		// @include breakpoint(small down) { // 768
-		// 	font: {
-		// 		size: rem-calc(14);
-		// 	}
-		// }
-	}
 }

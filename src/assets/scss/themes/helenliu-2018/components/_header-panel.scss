@@ -11,7 +11,7 @@
 
 .header--panel {
 	position: relative;
-	padding: $space-s $space-m;
+	padding: 1em; //$space-s $space-m;
 	text-align: center;
 }
 
@@ -22,28 +22,28 @@
 .header--panel--title {
 	font: {
 		family: $sans-serif-typeface-2;
-		size: 5vw;
+		// size: 5vw;
 		weight: $bold;
 	}
 
 	@include breakpoint(medium down) { // 768
-		font: {
-			size: 6vw;
-		}
+		// font: {
+		// 	size: 6vw;
+		// }
 	}
 
-	@include breakpoint(smed down) {
-		font: {
-			size: 10vw;
-		}
-		line-height: 0.9em;
-	}
+	// @include breakpoint(smed down) { // 420
+	// 	font: {
+	// 		size: 8vw; //rem-calc(40);
+	// 	}
+	// 	line-height: 1em;
+	// }
 
 	@include breakpoint(small down) {
-		font: {
-			size: 12vw;
-		}
-		line-height: 1em;
+		// font: {
+		// 	size: rem-calc(40);
+		// }
+		// line-height: 1em;
 	}
 
 	// Sub-title
@@ -55,59 +55,50 @@
 		@include breakpoint(smed down) {
 			display: block;
 			font: {
-				size: 7vw;
+				size: 75%; //7vw;
 			}
-			margin-bottom: 0.25em;
+			// margin-bottom: 0.25em;
 			color: $medium-grey;
 		}
 
-		@include breakpoint(small down) {
-			// display: block;
-			font: {
-				size: 9vw;
-			}
-			// margin-bottom: 0.25em;
-			// color: $medium-grey;
-		}
+		// @include breakpoint(small down) {
+		// 	font: {
+		// 		size: rem-calc(30);
+		// 	}
+		// }
 	}
 }
 
 .header--panel--content {
 	* {
-		// font: {
-		// 	family: $serif-typeface-1;
-		// 	size: 1.3vw;
-		// 	weight: $regular;
-		// }
-
-		// @include breakpoint(xxxlarge) {
-		// 	font: {
-		// 		size: 1.3vw;
-		// 	}
-		// }
-
 		@include breakpoint(xlarge) { // 1200
-			font: {
-				size: 1.6vw;
-			}
+			// font: {
+			// 	size: 1.6vw;
+			// }
 		}
 
 		@include breakpoint(large down) { // 1024
-			font: {
-				size: 1.8vw;
-			}
+			// font: {
+			// 	size: rem-calc(20); //inherit; //1.8vw;
+			// }
 		}
 
 		@include breakpoint(medium down) { // 768
-			font: {
-				size: 2vw;
-			}
+			// font: {
+			// 	size: rem-calc(16); //2vw;
+			// }
 		}
 
-		@include breakpoint(small down) { // >768
-			font: {
-				size: rem-calc(18); //4.3vw;
-			}
+		// @include breakpoint(smed down) { // 768
+		// 	font: {
+		// 		size: rem-calc(18); //3vw;
+		// 	}
+		// }
+
+		@include breakpoint(small down) { // 768
+			// font: {
+			// 	size: rem-calc(16); //2vw;
+			// }
 		}
 	}
 }

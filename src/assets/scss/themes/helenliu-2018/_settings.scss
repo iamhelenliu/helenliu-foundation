@@ -67,8 +67,8 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(2048);
-$global-lineheight: 1.5;
+$global-width: rem-calc(1920);
+$global-lineheight: 1;
 $foundation-palette: (
   primary: $colour-primary,
   secondary: $colour-secondary,
@@ -116,7 +116,7 @@ $breakpoints: (
   cinema: 2048px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small smed medium large xlarge xxlarge xxxlarge cinema);
+$breakpoint-classes: (small medium large xlarge xxlarge xxxlarge cinema);
 
 // 3. The Grid
 // -----------
@@ -124,8 +124,9 @@ $breakpoint-classes: (small smed medium large xlarge xxlarge xxxlarge cinema);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: rem-calc(30),
-  medium:  rem-calc(30),
+  // small: rem-calc(30),
+  // medium:  rem-calc(30),
+  // large: rem-calc(100),
 );
 $grid-column-align-edge: true;
 $grid-column-alias: 'columns';
@@ -139,12 +140,12 @@ $header-font-weight: $regular; // Specified in theme as it varies
 $header-font-style: normal;
 $font-family-monospace: $fixed-typeface-1;
 $header-color: $dark-grey;
-$header-lineheight: 1em;
-$header-margin-bottom: 1em;
+$header-lineheight: 1.1em !default;
+$header-margin-bottom: 0.5em !default;
 $header-styles: (
   // small: (
-  //   'h1': ('font-size': 24),
-  //   'h2': ('font-size': 20),
+    // 'h1': ('font-size': rem-calc(42)),
+    // 'h2': ('font-size': rem-calc(30)),
   //   'h3': ('font-size': 19),
   //   'h4': ('font-size': 18),
   //   'h5': ('font-size': 17),
@@ -157,6 +158,14 @@ $header-styles: (
   //   'h4': ('font-size': 25),
   //   'h5': ('font-size': 20),
   //   'h6': ('font-size': 16),
+  // ),
+  // large: (
+    // 'h1': ('font-size': rem-calc(48)),
+    // 'h2': ('font-size': rem-calc(40)),
+    // 'h3': ('font-size': rem-calc(31)),
+    // 'h4': ('font-size': rem-calc(25)),
+    // 'h5': ('font-size': rem-calc(20)),
+    // 'h6': ('font-size': rem-calc(16)),
   // ),
 );
 $header-text-rendering: optimizeLegibility;
@@ -203,7 +212,7 @@ $abbr-underline: 1px dotted $black;
 // 5. Typography Helpers
 // ---------------------
 
-$lead-font-size: $global-font-size * 1.25;
+$lead-font-size: $global-font-size * 1.3;
 $lead-lineheight: 1.6;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
@@ -863,8 +872,9 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-  small: 40px,
-  medium: 60px
+  small: rem-calc(30),
+  medium: rem-calc(50),
+  // xxlarge: rem-calc(100),
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;

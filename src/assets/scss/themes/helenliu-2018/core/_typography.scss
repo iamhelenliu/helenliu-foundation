@@ -158,27 +158,91 @@ $fixed-typeface-1: Consolas, 'Liberation Mono', Courier, monospace;
 // 	STYLES
 // ------------------------------------------------------------------------
 
+// Fluid typography
+// https://css-tricks.com/snippets/css/fluid-typography/
+// ........................................................................
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+$min_width: 320px;
+$max_width: 1920px;
+$min_font: 14px;
+$max_font: 20px;
+
+body {
+  @include fluid-type(320px, 1920px, $min_font, $max_font);
+}
+
+$mod_1: 1.2; // mobile
+$mod_2: 1.5; // desktop
+
+h1 {  
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 
+  margin-bottom: 0.2em;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *24px, $mod_2*$mod_2*$mod_2 *30px);
+}
+h2 {  
+  font: {
+    size: $mod_1*$mod_1*$mod_1 *1rem; 
+  }
+  margin-bottom: 0.4em;
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+}
+// h3 { 
+//   font-size: $mod_1*$mod_1 *1rem;
+//   @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+// }
+
+
+// body {
+//   font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1200 - 320)));
+//   // calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])))
+// }
+
+
+
 p, li {
   // font:{
-  //   size: 1vw; //rem-calc(18);
+  //   size: calc(0.4rem + 2.5vmin);
   // }
 
-  // @include breakpoint(medium down) { // 768
-  //   font: {
-  //     size: 2vw; //rem-calc(15);
-  //   }
-  // }
+  @include breakpoint(large down) { // 768
+    // font: {
+    //   size: inherit; //2vw; //rem-calc(15);
+    // }
+  }
 
   // @include breakpoint(smed down) { // 320
   //   font: {
-  //     size: 3.5vw; //rem-calc(13);
+  //     size: rem-calc(14); //3.5vw; //rem-calc(13);
   //   }
   // }
 
   @include breakpoint(small down) { // 320
-    font: {
-      size: rem-calc(14);
-    }
+    // font: {
+    //   size: rem-calc(14);
+    // }
   }
 }
 
